@@ -2,8 +2,8 @@
 # Run: doxygen Doxyfile
 
 PROJECT_NAME           = "Property Generator"
-PROJECT_NUMBER         = 0.1.0
-PROJECT_BRIEF          = "Homes for households: dwelling type, tenure, rooms, floor area, year built and housing cost, by country for C++23"
+PROJECT_NUMBER         = 1.0.0
+PROJECT_BRIEF          = "Procedural homes and housing costs for C++23"
 PROJECT_LOGO           =
 
 OUTPUT_DIRECTORY       = doc/api
