@@ -20,6 +20,11 @@ int main(int argc, char** argv)
         return gen.get_property({}, seed).to_json();
     });
 
+    dasmig::property_request with_income;
+    with_income.country = "DE";
+    with_income.household_income = dasmig::core::money::from_major(48000, "EUR", 2);
+    run.calls("get_property with an income", [&](std::uint64_t seed) { return gen.get_property(with_income, seed); });
+
     run.batches("get_property_batch", [&](std::size_t count, std::size_t threads, std::uint64_t seed) {
         return gen.get_property_batch({}, {.count = count, .threads = threads}, seed);
     });

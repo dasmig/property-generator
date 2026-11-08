@@ -1,0 +1,41 @@
+# National census and survey figures typed from reports that scripts cannot read; one row per figure.
+# Shares may be percentages or counts: each (country, field, area) group is normalised. See doc/data.md.
+country_code	field	area	key	value	year	source	evidence	definition
+IN	types	urban	house	56.4	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22 (households living in houses)	measured	
+IN	types	urban	flat	31.3	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22 (households living in houses)	measured	
+IN	types	urban	other	12.3	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22 (households living in houses)	measured	
+IN	types	rural	house	89.0	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22 (households living in houses)	measured	
+IN	types	rural	flat	3.4	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22 (households living in houses)	measured	
+IN	types	rural	other	7.7	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22 (households living in houses)	measured	
+IN	informal	urban	share	0.002	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22, unserviceable katcha structures	measured	
+IN	informal	rural	share	0.014	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 22, unserviceable katcha structures	measured	
+IN	tenure	all	owner	85.0	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 20 (others counted as rent-free)	measured	
+IN	tenure	all	tenant_market	11.7	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 20 (others counted as rent-free)	measured	
+IN	tenure	all	tenant_reduced	3.3	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 20 (others counted as rent-free)	measured	
+IN	rooms_mean	all	rooms	2.1	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 24, living rooms	measured	no_kitchen
+IN	floor	all	m2_per_dwelling	46.4	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 24	measured	
+IN	periods	all	1900-1977	12.7	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built	measured	
+IN	periods	all	1978-2012	76.8	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built	measured	
+IN	periods	all	2013-2017	8.1	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built	measured	
+IN	periods	all	2018-2018	1.6	2018	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built	measured	
+NG	types	all	detached	7969	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q02; huts in a compound as houses	measured	
+NG	types	all	semi_detached	1231	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q02	measured	
+NG	types	all	flat	2785	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q02	measured	
+NG	types	all	other	9943	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q02; compound house rooms as other	measured	
+NG	types	all	informal	193	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q02; tents, kiosks, containers, unfinished	measured	
+NG	tenure	all	owner	13391	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q03	measured	
+NG	tenure	all	tenant_reduced	4511	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q03 (free, authorised or not)	measured	
+NG	tenure	all	tenant_market	4219	2019	NBS Nigeria, Nigeria Living Standards Survey 2018-2019, microdata catalogue (unweighted case counts), s14q03	measured	
+GH	types	all	detached	638446	2021	Ghana Statistical Service, 2021 PHC 10% housing sample, microdata catalogue variable H01 (case counts); huts in a compound as houses	measured	
+GH	types	all	semi_detached	79941	2021	Ghana Statistical Service, 2021 PHC 10% housing sample, microdata catalogue variable H01 (case counts)	measured	
+GH	types	all	flat	31068	2021	Ghana Statistical Service, 2021 PHC 10% housing sample, microdata catalogue variable H01 (case counts)	measured	
+GH	types	all	other	211514	2021	Ghana Statistical Service, 2021 PHC 10% housing sample, microdata catalogue variable H01 (case counts); compound house rooms as other	measured	
+GH	types	all	informal	39664	2021	Ghana Statistical Service, 2021 PHC 10% housing sample, microdata catalogue variable H01 (case counts); tents, containers, kiosks, wooden structures, unfinished	measured	
+EG	types	all	detached	322712	2017	CAPMAS, General Census for Population, Housing and Establishments 2017, household file via the ERF data portal, DWLTYP (case counts)	measured	
+EG	types	all	flat	2041668	2017	CAPMAS, General Census for Population, Housing and Establishments 2017, household file via the ERF data portal, DWLTYP (case counts); one floor or more as a flat	measured	
+EG	types	all	other	250201	2017	CAPMAS, General Census for Population, Housing and Establishments 2017, household file via the ERF data portal, DWLTYP (case counts); rooms as other	measured	
+ZA	types	all	detached	68.655	2023	Stats SA, General Household Survey 2023: formal 83.5%, informal 12.2%, traditional 3.9%; formal split by the DataFirst ghs-2023-hhold-v1 cases (hsg_maind); traditional dwellings as detached	measured	
+ZA	types	all	semi_detached	12.029	2023	Stats SA, General Household Survey 2023: formal 83.5%, informal 12.2%, traditional 3.9%; formal split by the DataFirst ghs-2023-hhold-v1 cases (hsg_maind)	measured	
+ZA	types	all	flat	5.212	2023	Stats SA, General Household Survey 2023: formal 83.5%, informal 12.2%, traditional 3.9%; formal split by the DataFirst ghs-2023-hhold-v1 cases (hsg_maind)	measured	
+ZA	types	all	other	1.504	2023	Stats SA, General Household Survey 2023: formal 83.5%, informal 12.2%, traditional 3.9%; formal split by the DataFirst ghs-2023-hhold-v1 cases (hsg_maind)	measured	
+ZA	types	all	informal	12.2	2023	Stats SA, General Household Survey 2023: formal 83.5%, informal 12.2%, traditional 3.9%; formal split by the DataFirst ghs-2023-hhold-v1 cases (hsg_maind)	measured	

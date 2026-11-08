@@ -1,3 +1,87 @@
-The data in the resources/ directory is a sample written for this library.
-List each source here with its licence before the first release (see
-doc/data.md).
+Data sources of property-generator. The code is under LICENSE.MIT; this file covers resources/.
+The tables hold shares, odds and fitted parameters derived from these sources, not their records
+or texts. Per-table detail is in doc/data.md; each row of the full tier names its source and year.
+Where a source's terms were not found or were not read, this file says so: the owner chose on
+2026-11-07 to use those sources and to settle their terms separately (design decisions 12 and 13).
+
+Eurostat: EU-SILC tables ilc_lvho01, ilc_lvho02, ilc_lvho03, ilc_lvho28 and ilc_lvho32, and the
+2021 census tables cens_21dwbnr_r3 and cens_21dwop_r3. Source: Eurostat. Eurostat's copyright
+notice allows reuse, commercial or not, with the source acknowledged.
+https://ec.europa.eu/eurostat/about-us/policies/copyright
+
+US Census Bureau: American Community Survey 2023 1-year PUMS, and the American Housing Survey 2023
+national public use file. Works of the US federal government, public domain.
+
+UN Statistics Division: Compendium of Housing Statistics 2011, tables 2, 3 and 15 (tenure, rooms,
+informal share for the countries listed in the full tier). The un.org terms of use, as read,
+allow personal, non-commercial use and forbid redistribution and derivative works without
+permission. Used by the owner's decision of 2026-11-07; the terms are the owner's to settle.
+https://unstats.un.org/unsd/demographic-social/sconcerns/housing/
+
+The DHS Program (ICF): indicator HC_RMSL (rooms used for sleeping) through the DHS Program API,
+https://api.dhsprogram.com. The API is described as open access, with citation; no reuse licence
+for the indicators was found. The DHS dataset terms, which bar redistributing microdata, concern
+microdata, which is not used. Cite as: The DHS Program STATcompiler, ICF. Used by the owner's
+decision of 2026-11-07.
+
+United Nations, SDG indicator 11.1.1, series EN_LND_SLUM (UN-Habitat), through the UN SDG Global
+Database API. The SDG database's terms were not found; UNdata's terms allow copying and
+redistribution with the source cited. https://unstats.un.org/sdgs/dataportal
+
+The World Bank: World Development Indicators, SP.URB.TOTL.IN.ZS (from UN World Urbanization
+Prospects). CC BY 4.0. https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS
+
+European Commission, Joint Research Centre: GHS-DUC R2023A (GHSL degree of urbanisation by
+country), from the GHSL Data Package 2023. CC BY 4.0.
+https://ghsl.jrc.ec.europa.eu/
+
+OECD: Income Distribution Database (DF_IDD, INC_DISP and TAC). OECD data are published under
+CC BY 4.0 since 2024; the terms page itself refused the download script and was not read.
+https://www.oecd.org/en/data/datasets/income-and-wealth-distribution-database.html
+
+United Nations, Department of Economic and Social Affairs, Population Division (2024): World
+Population Prospects 2024, growth rates by year, through the data of the wpp2024 R package
+(https://github.com/PPgp/wpp2024). WPP is CC BY 3.0 IGO.
+
+National statistical offices, by country (only shares derived from the tables are shipped):
+
+- China: National Bureau of Statistics, 2020 Population Census yearbook, tables 9-1 to 9-5.
+  Terms not found.
+- Japan: Statistics Bureau of Japan, 2023 Housing and Land Survey, through the Japan Statistical
+  Yearbook 2026, chapter 21. e-Stat's terms allow use, commercial included, with the source cited.
+  Source: Statistics Bureau of Japan, Japan Statistical Yearbook 2026.
+- Brazil: IBGE, Censo Demográfico 2022, SIDRA tables 9880 and 9932. Reuse, commercial included,
+  with the source cited (as read in secondary sources quoting IBGE's open-data terms).
+  Fonte: IBGE, Censo Demográfico 2022.
+- Mexico: INEGI, Censo de Población y Vivienda 2020, tabulados del cuestionario básico.
+  INEGI's Términos de Libre Uso allow copying and commercial use, with the source cited.
+  Fuente: INEGI, Censo de Población y Vivienda 2020.
+- Pakistan: Pakistan Bureau of Statistics, 2023 Census, tables 25 and 26, read from the data of
+  the CRAN package PakPC2023 (https://cran.r-project.org/package=PakPC2023). PBS's terms not found.
+- Philippines: Philippine Statistics Authority, 2020 Census of Population and Housing, OpenSTAT
+  tables 0041A6DTOB0, 0061A6DFAO0 and 0071A6DTSH0. Free reuse and redistribution with
+  attribution. Source: Philippine Statistics Authority.
+- India: National Statistical Office, NSS Report No. 584, Drinking Water, Sanitation, Hygiene
+  and Housing Condition in India (76th round, July-December 2018). Government Open Data License -
+  India (data.gov.in) allows use, commercial included, with attribution; the ministry site's own
+  terms were not read.
+- Nigeria: National Bureau of Statistics, Nigeria Living Standards Survey 2018-2019 (case counts
+  from its microdata catalogue's variable pages). Terms not found.
+- Ghana: Ghana Statistical Service, 2021 Population and Housing Census, 10% housing sample (case
+  counts from its microdata catalogue's variable page). Terms not found.
+- Egypt: CAPMAS, General Census for Population, Housing and Establishments 2017, household file
+  (case counts through the Economic Research Forum's data portal). Terms not found.
+- South Africa: Statistics South Africa, General Household Survey 2023 (published shares), with
+  DataFirst's ghs-2023-hhold-v1 file for the split of formal dwellings. Stats SA's terms allow use
+  with Stats SA credited, and forbid selling the data or reprocessed versions of it without
+  permission.
+
+relationship-generator, households.tsv (household types and sizes, from the UN Database on
+Household Size and Composition, UN DESA Population Division): see that library's data notes.
+
+country-generator (population, currency, minor unit, subregion, income level): see that
+library's LICENSE_DATA.txt.
+
+occupation-generator, income.tsv (median gross earnings by country, from ILOSTAT, or GDP per
+head from the World Bank where there is no survey), for each country's reference income in
+costs: see that library's LICENSE_DATA.txt.

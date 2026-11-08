@@ -11,9 +11,35 @@
 
 **[API Reference](https://dasmig.github.io/property-generator/)** · **[Usage Guide](doc/usage.md)** · **[Data and Method](doc/data.md)** · **[Releases](https://github.com/dasmig/property-generator/releases)**
 
-Homes for households: dwelling type, tenure, rooms, floor area, year built and housing cost, by country.
+A household's home in any of 199 countries: the dwelling type, whether it is owned or rented, the rooms and bedrooms, the floor area, the year it was built and what it costs each month. Each field fits the country, the area, the household and the ones drawn before it.
+
+```
+DE, city, flat in a large building, tenant at market rent, 1 room (studio), 35 m², built 1972, 717.49 EUR a month
+US, town, detached house, owner with a mortgage, 5 rooms (2 bedrooms), 131 m², built 1994, 1324.45 USD a month
+JP, city, flat in a large building, tenant at market rent, 3 rooms (1 bedroom), 63 m², built 1996, 80204 JPY a month
+BR, city, detached house, owner with a mortgage, 5 rooms (3 bedrooms), 207 m², built 1958, 686.55 BRL a month
+IN, rural, detached house, owner without a mortgage, 3 rooms (1 bedroom), 69 m², built 1969, 470.50 INR a month
+```
+
+These homes are drawn for households with gross incomes of 52,000 EUR, 78,000 USD, 5,200,000 JPY, 60,000 BRL and 420,000 INR a year.
+
+## Limits
+
+- The homes are statistically plausible, not real ones. There is no address, price or market value (a later version may add the value).
+- Much of the world has no source for some fields, and those fields take the mean of similar countries: the dwelling type for 42% of the world's people and the housing cost for 70%. Every result says how it was obtained (`evidence`), and [`doc/data.md`](doc/data.md#coverage) lists the coverage.
+- How tenure shifts with age, how the dwelling type shifts with household size, and how the cost's share falls with income are the US's, damped, wherever a country has only its totals.
 
 ## Features
+
+- **Homes That Fit the Household**. The dwelling type depends on the area and the household's size, the tenure on the household type, the reference person's age and the dwelling type, and the rooms on the building and the household's size. In Germany 81% of homes drawn for a 22-year-old are rented, against 39% for a 70-year-old.
+
+- **199 Countries**. Dwelling types, tenure, rooms, floor area and period of construction from Eurostat's EU-SILC and 2021 census, US ACS and AHS microdata, eleven national censuses and surveys (China, Japan, Brazil, Mexico, Pakistan, the Philippines, India, Nigeria, Ghana, Egypt, South Africa), the UN's housing compendium and DHS surveys.
+
+- **Housing Costs**. With a household income, the monthly rent or owner's costs, in the country's currency. A higher income pays more, but a smaller share of it.
+
+- **Evidence on Every Result**. Each field of each country is `measured`, `modelled` or `filled`, and a result carries the weakest of those it drew from. `evidence(country)` gives each field's.
+
+- **Composes with the Others**. A request takes the household of [relationship-generator](https://github.com/dasmig/relationship-generator), the income of [occupation-generator](https://github.com/dasmig/occupation-generator) and a place's population from [city-generator](https://github.com/dasmig/city-generator). Any field can be fixed, and the others are drawn around it.
 
 - **Deterministic Seeding**. Per-call `get_property(request, seed)` for reproducible results, and `property::seed()` for replaying a previous generation with the same request and data.
 
@@ -47,15 +73,23 @@ to the files you want to use it in, and supply the [`resources`](https://github.
 
 auto& gen = dasmig::pty::instance(); // loads the lite tier
 
-auto v = gen.get_property(dasmig::property_request{});
-std::cout << v << '\n';           // the label
-std::cout << v.to_json() << '\n'; // {"key":...,"label":...,"signature":{...}}
+dasmig::property_request request;
+request.country = "DE";
+request.household_income = dasmig::core::money::from_major(52'000, "EUR", 2);
+
+auto v = gen.get_property(request);
+std::cout << v << '\n';           // DE, city, flat in a large building, tenant at market rent, 1 room (studio), 35 m², ...
+std::cout << v.to_json() << '\n'; // {"country_code":"DE","area":"city",...,"monthly_cost":{"amount":717.49,"currency":"EUR"},...}
 
 // The same seed gives the same result everywhere.
-auto again = gen.get_property(dasmig::property_request{}, v.seed());
+auto again = gen.get_property(request, v.seed());
 ```
 
 See the [usage guide](doc/usage.md) for everything else.
+
+## Data
+
+Dwelling types, tenure, rooms and floor area come from Eurostat, the US Census Bureau's microdata, national statistics offices, the UN's Compendium of Housing Statistics and the DHS Program; the areas from the World Bank and the EC's Global Human Settlement Layer; the period of construction from censuses or, elsewhere, from UN population growth; and housing costs from EU-SILC, the ACS and Chinese and Japanese rent figures, on incomes from occupation-generator. [`doc/data.md`](doc/data.md) gives each source, the model for every field, how well the draws match the sources and what is known to be weak, and [`LICENSE_DATA.txt`](LICENSE_DATA.txt) gives their terms.
 
 ## Building
 
@@ -82,8 +116,34 @@ Tested with:
 
 | Dependency | Version | Bundled | Purpose |
 |-----------|---------|---------|---------|
-| [dasmig-core](https://github.com/dasmig/dasmig-core) | 1.3 | Yes (`core.hpp`, `core/`) | Platform-independent random engine and distributions, data layers, JSON |
+| [dasmig-core](https://github.com/dasmig/dasmig-core) | 1.4 | Yes (`core.hpp`, `core/`) | Platform-independent random engine and distributions, data layers, JSON |
 | [Catch2](https://github.com/catchorg/Catch2) | 3.x | Yes (amalgamated) | Unit testing |
+
+## Related Libraries
+
+| Library | Description |
+|---------|-------------|
+| [address-generator](https://github.com/dasmig/address-generator) | Postal addresses with real streets by place |
+| [biodata-generator](https://github.com/dasmig/biodata-generator) | Procedural human physical characteristics |
+| [birth-generator](https://github.com/dasmig/birth-generator) | Demographically plausible birthdays |
+| [city-generator](https://github.com/dasmig/city-generator) | Weighted city selection by population |
+| [country-generator](https://github.com/dasmig/country-generator) | Weighted country selection by population |
+| [device-generator](https://github.com/dasmig/device-generator) | Devices, browsers, user agents and IP addresses that fit together |
+| [email-generator](https://github.com/dasmig/email-generator) | Email addresses in each country's style |
+| [entity-generator](https://github.com/dasmig/entity-generator) | ECS-based entity generation |
+| [finance-generator](https://github.com/dasmig/finance-generator) | Bank accounts and payment cards in each country's form |
+| [id-generator](https://github.com/dasmig/id-generator) | National identity numbers, passports and identity cards that fit a person and a date |
+| [interest-generator](https://github.com/dasmig/interest-generator) | Religion, hobbies and favourite media by country, age and sex |
+| [name-generator](https://github.com/dasmig/name-generator) | Culturally appropriate full names |
+| [nickname-generator](https://github.com/dasmig/nickname-generator) | Gamer-style nicknames |
+| [occupation-generator](https://github.com/dasmig/occupation-generator) | Employment status, education and occupation by country, age and sex |
+| [persona-generator](https://github.com/dasmig/persona-generator) | Complete characters composed from the other generators |
+| [phone-generator](https://github.com/dasmig/phone-generator) | Phone numbers valid in each country's numbering plan |
+| [relationship-generator](https://github.com/dasmig/relationship-generator) | Families around a person: parents, siblings, partners and children |
+| [trait-generator](https://github.com/dasmig/trait-generator) | Personality traits with conflicts, synergies and Big Five axes |
+| [user-generator](https://github.com/dasmig/user-generator) | Complete user records: account, username, email, phone and address |
+| [vehicle-generator](https://github.com/dasmig/vehicle-generator) | Cars and motorcycles with plates and VINs that fit their country and date |
+| [weather-generator](https://github.com/dasmig/weather-generator) | Daily weather for any place on land and any date |
 
 ## License
 
