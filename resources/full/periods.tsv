@@ -1,0 +1,1759 @@
+# occupied dwellings by period of construction; see doc/data.md
+country_code	from	to	share	evidence	source
+AD	1900	1949	0.0289	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	1950	1959	0.0198	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	1960	1969	0.0598	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	1970	1979	0.113	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	1980	1989	0.1486	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	1990	1999	0.1779	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	2000	2009	0.2347	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	2010	2019	0.1313	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AD	2020	2023	0.0861	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	1900	1949	0.0035	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	1950	1959	0.003	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	1960	1969	0.0063	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	1970	1979	0.0396	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	1980	1989	0.0639	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	1990	1999	0.1177	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	2000	2009	0.3024	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	2010	2019	0.3199	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AE	2020	2023	0.1437	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AF	1900	1949	0.0207	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	1950	1959	0.011	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	1960	1969	0.0212	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	1970	1979	0.0372	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	1980	1989	0.0332	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	1990	1999	0.1263	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	2000	2009	0.1995	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	2010	2019	0.3648	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AF	2020	2023	0.1862	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+AG	1900	1949	0.1959	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	1950	1959	0.0688	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	1960	1969	0.0847	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	1970	1979	0.0552	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	1980	1989	0.0567	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	1990	1999	0.1357	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	2000	2009	0.1666	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	2010	2019	0.1708	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AG	2020	2023	0.0655	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AL	1900	1949	0.0899	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	1950	1959	0.049	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	1960	1969	0.0873	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	1970	1979	0.1224	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	1980	1989	0.1715	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	1990	1999	0.1214	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	2000	2009	0.1337	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	2010	2019	0.1552	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AL	2020	2023	0.0695	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	1900	1949	0.0928	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	1950	1959	0.0533	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	1960	1969	0.0944	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	1970	1979	0.134	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	1980	1989	0.1278	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	1990	1999	0.1536	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	2000	2009	0.122	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	2010	2019	0.1441	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AM	2020	2023	0.0779	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AO	1900	1949	0.0201	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	1950	1959	0.0089	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	1960	1969	0.0128	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	1970	1979	0.0301	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	1980	1989	0.0599	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	1990	1999	0.1036	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	2000	2009	0.1946	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	2010	2019	0.3666	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AO	2020	2023	0.2034	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+AR	1900	1949	0.0847	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	1950	1959	0.037	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	1960	1969	0.0524	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	1970	1979	0.075	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	1980	1989	0.1071	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	1990	1999	0.1409	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	2000	2009	0.1778	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	2010	2019	0.2352	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AR	2020	2023	0.0899	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AT	1850	1918	0.1431	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AT	1919	1945	0.0644	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AT	1946	1960	0.0956	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AT	1961	1980	0.2588	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AT	1981	2000	0.22	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AT	2001	2010	0.1071	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AT	2011	2015	0.0492	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AT	2016	2021	0.0618	measured	Eurostat census 2021 cens_21dwop_r3 2021
+AU	1900	1949	0.1271	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	1950	1959	0.0495	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	1960	1969	0.0659	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	1970	1979	0.0822	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	1980	1989	0.0989	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	1990	1999	0.1128	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	2000	2009	0.1575	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	2010	2019	0.2227	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AU	2020	2023	0.0834	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+AZ	1900	1949	0.069	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	1950	1959	0.0339	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	1960	1969	0.0626	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	1970	1979	0.0808	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	1980	1989	0.1036	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	1990	1999	0.1326	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	2000	2009	0.1753	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	2010	2019	0.2416	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+AZ	2020	2023	0.1008	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	1900	1949	0.1381	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	1950	1959	0.062	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	1960	1969	0.0854	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	1970	1979	0.0983	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	1980	1989	0.1227	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	1990	1999	0.1666	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	2000	2009	0.1368	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	2010	2019	0.134	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BA	2020	2023	0.0561	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BB	1900	1949	0.3025	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	1950	1959	0.0708	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	1960	1969	0.0864	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	1970	1979	0.0647	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	1980	1989	0.0823	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	1990	1999	0.0889	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	2000	2009	0.124	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	2010	2019	0.1291	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BB	2020	2023	0.0513	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BD	1900	1949	0.0379	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	1950	1959	0.0212	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	1960	1969	0.0418	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	1970	1979	0.0646	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	1980	1989	0.1054	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	1990	1999	0.1493	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	2000	2009	0.1996	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	2010	2019	0.2514	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BD	2020	2023	0.1288	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BE	1850	1918	0.2129	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BE	1919	1945	0.1237	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BE	1946	1960	0.1108	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BE	1961	1980	0.2353	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BE	1981	2000	0.1541	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BE	2001	2010	0.0814	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BE	2011	2015	0.0423	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BE	2016	2021	0.0396	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BF	1900	1949	0.02	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	1950	1959	0.0101	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	1960	1969	0.0173	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	1970	1979	0.0308	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	1980	1989	0.061	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	1990	1999	0.1044	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	2000	2009	0.2028	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	2010	2019	0.3599	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BF	2020	2023	0.1937	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BG	1850	1918	0.006	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BG	1919	1945	0.054	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BG	1946	1960	0.1458	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BG	1961	1980	0.4232	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BG	1981	2000	0.2708	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BG	2001	2010	0.0622	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BG	2011	2015	0.018	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BG	2016	2021	0.02	measured	Eurostat census 2021 cens_21dwop_r3 2021
+BH	1900	1949	0.0316	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	1950	1959	0.0162	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	1960	1969	0.0283	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	1970	1979	0.0529	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	1980	1989	0.0813	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	1990	1999	0.1026	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	2000	2009	0.3051	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	2010	2019	0.2924	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BH	2020	2023	0.0896	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BI	1900	1949	0.0179	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	1950	1959	0.011	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	1960	1969	0.0208	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	1970	1979	0.0332	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	1980	1989	0.0615	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	1990	1999	0.0982	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	2000	2009	0.1931	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	2010	2019	0.3613	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BI	2020	2023	0.203	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+BJ	1900	1949	0.0256	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	1950	1959	0.0104	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	1960	1969	0.0196	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	1970	1979	0.035	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	1980	1989	0.0649	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	1990	1999	0.1169	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	2000	2009	0.202	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	2010	2019	0.3411	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BJ	2020	2023	0.1845	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BN	1900	1949	0.044	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	1950	1959	0.0408	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	1960	1969	0.0649	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	1970	1979	0.0818	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	1980	1989	0.1261	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	1990	1999	0.1619	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	2000	2009	0.1865	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	2010	2019	0.2124	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BN	2020	2023	0.0817	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BO	1900	1949	0.0398	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	1950	1959	0.0199	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	1960	1969	0.0348	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	1970	1979	0.0575	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	1980	1989	0.0901	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	1990	1999	0.1354	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	2000	2009	0.1971	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	2010	2019	0.2873	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BO	2020	2023	0.138	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BR	1900	1949	0.0575	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	1950	1959	0.0343	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	1960	1969	0.0567	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	1970	1979	0.0819	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	1980	1989	0.1184	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	1990	1999	0.1512	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	2000	2009	0.1855	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	2010	2019	0.2203	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BR	2020	2023	0.0943	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BS	1900	1949	0.0877	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	1950	1959	0.0407	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	1960	1969	0.1017	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	1970	1979	0.1056	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	1980	1989	0.1137	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	1990	1999	0.1486	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	2000	2009	0.1668	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	2010	2019	0.1772	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BS	2020	2023	0.0581	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+BT	1900	1949	0.033	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	1950	1959	0.021	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	1960	1969	0.0402	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	1970	1979	0.0752	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	1980	1989	0.128	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	1990	1999	0.1272	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	2000	2009	0.2093	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	2010	2019	0.2504	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BT	2020	2023	0.1157	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+BW	1900	1949	0.0387	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	1950	1959	0.0188	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	1960	1969	0.0247	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	1970	1979	0.067	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	1980	1989	0.1096	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	1990	1999	0.1502	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	2000	2009	0.1963	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	2010	2019	0.2635	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BW	2020	2023	0.1312	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	1900	1949	0.1619	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	1950	1959	0.0607	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	1960	1969	0.08	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	1970	1979	0.091	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	1980	1989	0.1188	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	1990	1999	0.12	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	2000	2009	0.1335	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	2010	2019	0.1625	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BY	2020	2023	0.0715	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	1900	1949	0.0387	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	1950	1959	0.0219	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	1960	1969	0.0371	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	1970	1979	0.0457	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	1980	1989	0.0776	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	1990	1999	0.1276	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	2000	2009	0.2233	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	2010	2019	0.2954	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+BZ	2020	2023	0.1328	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CA	1900	1949	0.1444	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	1950	1959	0.0623	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	1960	1969	0.0738	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	1970	1979	0.0839	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	1980	1989	0.098	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	1990	1999	0.1225	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	2000	2009	0.1431	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	2010	2019	0.1881	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CA	2020	2023	0.0837	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CD	1900	1949	0.0129	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	1950	1959	0.008	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	1960	1969	0.016	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	1970	1979	0.0287	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	1980	1989	0.0558	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	1990	1999	0.1041	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	2000	2009	0.1877	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	2010	2019	0.3667	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CD	2020	2023	0.2201	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	1900	1949	0.0293	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	1950	1959	0.0164	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	1960	1969	0.0297	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	1970	1979	0.0456	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	1980	1989	0.065	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	1990	1999	0.1513	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	2000	2009	0.2342	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	2010	2019	0.2844	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CF	2020	2023	0.144	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+CG	1900	1949	0.0216	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	1950	1959	0.0124	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	1960	1969	0.0232	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	1970	1979	0.0398	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	1980	1989	0.0634	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	1990	1999	0.1097	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	2000	2009	0.2124	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	2010	2019	0.3398	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CG	2020	2023	0.1777	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CH	1850	1918	0.1379	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CH	1919	1945	0.084	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CH	1946	1960	0.1088	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CH	1961	1980	0.253	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CH	1981	2000	0.1995	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CH	2001	2010	0.0923	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CH	2011	2015	0.0575	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CH	2016	2021	0.0671	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CI	1900	1949	0.0142	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	1950	1959	0.0093	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	1960	1969	0.0202	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	1970	1979	0.0411	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	1980	1989	0.0758	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	1990	1999	0.1426	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	2000	2009	0.1952	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	2010	2019	0.3197	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CI	2020	2023	0.1819	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CL	1900	1949	0.139	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	1950	1959	0.0491	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	1960	1969	0.069	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	1970	1979	0.0824	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	1980	1989	0.1057	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	1990	1999	0.1375	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	2000	2009	0.1473	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	2010	2019	0.1969	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CL	2020	2023	0.073	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CM	1900	1949	0.0245	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	1950	1959	0.0121	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	1960	1969	0.0213	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	1970	1979	0.0393	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	1980	1989	0.0689	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	1990	1999	0.1155	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	2000	2009	0.1932	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	2010	2019	0.3384	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CM	2020	2023	0.1868	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+CN	1900	1948	0.0037	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	1949	1959	0.0035	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	1960	1969	0.0081	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	1970	1979	0.0268	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	1980	1989	0.1025	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	1990	1999	0.2055	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	2000	2009	0.3034	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	2010	2014	0.2146	measured	NBS China, 2020 census yearbook table 9-2 2020
+CN	2015	2020	0.132	measured	NBS China, 2020 census yearbook table 9-2 2020
+CO	1900	1949	0.0514	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	1950	1959	0.0288	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	1960	1969	0.0509	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	1970	1979	0.0702	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	1980	1989	0.1048	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	1990	1999	0.147	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	2000	2009	0.1858	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	2010	2019	0.2389	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CO	2020	2023	0.1222	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CR	1900	1949	0.0753	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	1950	1959	0.0409	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	1960	1969	0.067	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	1970	1979	0.0845	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	1980	1989	0.1263	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	1990	1999	0.1696	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	2000	2009	0.1787	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	2010	2019	0.1897	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CR	2020	2023	0.068	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+CU	1900	1949	0.1188	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	1950	1959	0.0543	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	1960	1969	0.085	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	1970	1979	0.0992	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	1980	1989	0.1124	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	1990	1999	0.1354	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	2000	2009	0.1504	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	2010	2019	0.1683	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CU	2020	2023	0.076	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	1900	1949	0.0809	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	1950	1959	0.0288	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	1960	1969	0.0694	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	1970	1979	0.0738	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	1980	1989	0.1016	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	1990	1999	0.1713	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	2000	2009	0.2045	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	2010	2019	0.1795	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CV	2020	2023	0.0901	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+CY	1850	1918	0.0023	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CY	1919	1945	0.0124	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CY	1946	1960	0.0366	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CY	1961	1980	0.2028	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CY	1981	2000	0.3525	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CY	2001	2010	0.2647	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CY	2011	2015	0.0628	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CY	2016	2021	0.0661	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	1850	1918	0.0826	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	1919	1945	0.1215	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	1946	1960	0.0817	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	1961	1980	0.3177	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	1981	2000	0.2185	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	2001	2010	0.1037	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	2011	2015	0.0343	measured	Eurostat census 2021 cens_21dwop_r3 2021
+CZ	2016	2021	0.0401	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	1850	1918	0.1271	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	1919	1945	0.0941	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	1946	1960	0.1477	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	1961	1980	0.2883	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	1981	2000	0.2179	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	2001	2010	0.0577	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	2011	2015	0.0285	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DE	2016	2021	0.0386	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DJ	1900	1949	0.0089	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	1950	1959	0.0062	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	1960	1969	0.0158	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	1970	1979	0.055	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	1980	1989	0.1	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	1990	1999	0.1691	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	2000	2009	0.2088	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	2010	2019	0.2926	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DJ	2020	2023	0.1436	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+DK	1850	1918	0.1743	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DK	1919	1945	0.155	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DK	1946	1960	0.1173	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DK	1961	1980	0.2952	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DK	1981	2000	0.1325	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DK	2001	2010	0.0671	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DK	2011	2015	0.0201	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DK	2016	2021	0.0384	measured	Eurostat census 2021 cens_21dwop_r3 2021
+DM	1900	1949	0.1564	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	1950	1959	0.0615	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	1960	1969	0.0942	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	1970	1979	0.1003	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	1980	1989	0.0914	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	1990	1999	0.108	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	2000	2009	0.1341	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	2010	2019	0.1833	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DM	2020	2023	0.0709	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	1900	1949	0.048	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	1950	1959	0.0294	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	1960	1969	0.05	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	1970	1979	0.0758	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	1980	1989	0.1078	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	1990	1999	0.148	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	2000	2009	0.1857	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	2010	2019	0.2418	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DO	2020	2023	0.1134	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	1900	1949	0.0448	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	1950	1959	0.0231	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	1960	1969	0.0317	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	1970	1979	0.062	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	1980	1989	0.109	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	1990	1999	0.1381	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	2000	2009	0.171	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	2010	2019	0.2844	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+DZ	2020	2023	0.1359	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	1900	1949	0.0448	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	1950	1959	0.0243	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	1960	1969	0.0433	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	1970	1979	0.0699	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	1980	1989	0.1046	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	1990	1999	0.1405	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	2000	2009	0.1931	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	2010	2019	0.2667	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EC	2020	2023	0.1129	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+EE	1850	1918	0.045	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EE	1919	1945	0.0829	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EE	1946	1960	0.0964	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EE	1961	1980	0.365	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EE	1981	2000	0.2895	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EE	2001	2010	0.0628	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EE	2011	2015	0.0178	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EE	2016	2021	0.0404	measured	Eurostat census 2021 cens_21dwop_r3 2021
+EG	1900	1949	0.0293	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	1950	1959	0.017	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	1960	1969	0.0302	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	1970	1979	0.0476	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	1980	1989	0.0865	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	1990	1999	0.1311	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	2000	2009	0.1959	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	2010	2019	0.3123	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+EG	2020	2023	0.1501	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ER	1900	1949	0.0252	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	1950	1959	0.0141	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	1960	1969	0.0281	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	1970	1979	0.0498	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	1980	1989	0.0843	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	1990	1999	0.1298	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	2000	2009	0.2284	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	2010	2019	0.2748	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ER	2020	2023	0.1654	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ES	1850	1918	0.0448	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ES	1919	1945	0.0488	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ES	1946	1960	0.0744	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ES	1961	1980	0.3337	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ES	1981	2000	0.2675	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ES	2001	2010	0.205	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ES	2011	2015	0.0177	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ES	2016	2021	0.0082	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ET	1900	1949	0.0321	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	1950	1959	0.0139	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	1960	1969	0.0265	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	1970	1979	0.0403	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	1980	1989	0.0686	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	1990	1999	0.1338	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	2000	2009	0.2025	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	2010	2019	0.3127	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ET	2020	2023	0.1697	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FI	1850	1918	0.0143	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FI	1919	1945	0.0656	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FI	1946	1960	0.1117	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FI	1961	1980	0.3115	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FI	1981	2000	0.2791	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FI	2001	2010	0.1049	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FI	2011	2015	0.0527	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FI	2016	2021	0.0603	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FJ	1900	1949	0.076	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	1950	1959	0.0407	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	1960	1969	0.0725	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	1970	1979	0.088	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	1980	1989	0.1391	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	1990	1999	0.1352	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	2000	2009	0.1863	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	2010	2019	0.1774	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FJ	2020	2023	0.0848	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+FM	1900	1949	0.0435	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	1950	1959	0.0285	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	1960	1969	0.0543	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	1970	1979	0.0861	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	1980	1989	0.1489	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	1990	1999	0.1664	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	2000	2009	0.1543	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	2010	2019	0.2074	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FM	2020	2023	0.1107	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+FR	1850	1918	0.1194	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FR	1919	1945	0.0854	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FR	1946	1960	0.1237	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FR	1961	1980	0.2243	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FR	1981	2000	0.2499	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FR	2001	2010	0.1081	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FR	2011	2015	0.0552	measured	Eurostat census 2021 cens_21dwop_r3 2021
+FR	2016	2021	0.0339	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GA	1900	1949	0.0443	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	1950	1959	0.0135	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	1960	1969	0.0229	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	1970	1979	0.0421	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	1980	1989	0.0733	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	1990	1999	0.1146	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	2000	2009	0.1933	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	2010	2019	0.3378	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GA	2020	2023	0.1583	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GB	1900	1949	0.3005	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	1950	1959	0.0526	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	1960	1969	0.0699	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	1970	1979	0.0614	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	1980	1989	0.0707	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	1990	1999	0.0885	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	2000	2009	0.1256	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	2010	2019	0.1631	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GB	2020	2023	0.0678	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GD	1900	1949	0.1477	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	1950	1959	0.0659	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	1960	1969	0.0661	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	1970	1979	0.0635	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	1980	1989	0.0924	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	1990	1999	0.1329	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	2000	2009	0.1526	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	2010	2019	0.1938	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GD	2020	2023	0.0851	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	1900	1949	0.1629	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	1950	1959	0.0625	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	1960	1969	0.1021	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	1970	1979	0.1069	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	1980	1989	0.1386	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	1990	1999	0.1153	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	2000	2009	0.1145	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	2010	2019	0.1321	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GE	2020	2023	0.065	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GH	1900	1949	0.0239	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	1950	1959	0.0164	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	1960	1969	0.0265	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	1970	1979	0.0471	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	1980	1989	0.0755	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	1990	1999	0.1209	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	2000	2009	0.2066	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	2010	2019	0.3196	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GH	2020	2023	0.1634	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GM	1900	1949	0.0125	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	1950	1959	0.0087	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	1960	1969	0.0163	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	1970	1979	0.0307	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	1980	1989	0.0659	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	1990	1999	0.1206	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	2000	2009	0.1994	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	2010	2019	0.3531	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GM	2020	2023	0.1928	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GN	1900	1949	0.0333	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	1950	1959	0.0161	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	1960	1969	0.0265	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	1970	1979	0.0393	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	1980	1989	0.0693	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	1990	1999	0.1308	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	2000	2009	0.1809	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	2010	2019	0.322	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GN	2020	2023	0.1818	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+GQ	1900	1949	0.0288	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	1950	1959	0.0122	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	1960	1969	0.0204	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	1970	1979	0.0127	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	1980	1989	0.0617	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	1990	1999	0.0975	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	2000	2009	0.2344	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	2010	2019	0.3657	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GQ	2020	2023	0.1666	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GR	1850	1918	0.0123	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GR	1919	1945	0.0274	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GR	1946	1960	0.0783	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GR	1961	1980	0.3731	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GR	1981	2000	0.3304	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GR	2001	2010	0.1543	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GR	2011	2015	0.0165	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GR	2016	2021	0.0077	measured	Eurostat census 2021 cens_21dwop_r3 2021
+GT	1900	1949	0.0393	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	1950	1959	0.0215	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	1960	1969	0.0379	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	1970	1979	0.0553	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	1980	1989	0.0905	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	1990	1999	0.1441	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	2000	2009	0.203	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	2010	2019	0.2798	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GT	2020	2023	0.1286	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+GW	1900	1949	0.0276	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	1950	1959	0.0119	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	1960	1969	0.0171	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	1970	1979	0.0484	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	1980	1989	0.058	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	1990	1999	0.1125	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	2000	2009	0.1904	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	2010	2019	0.3444	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GW	2020	2023	0.1898	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+GY	1900	1949	0.1974	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	1950	1959	0.0946	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	1960	1969	0.1203	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	1970	1979	0.1095	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	1980	1989	0.0731	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	1990	1999	0.0875	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	2000	2009	0.0843	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	2010	2019	0.166	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+GY	2020	2023	0.0674	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	1900	1949	0.1097	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	1950	1959	0.0748	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	1960	1969	0.1427	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	1970	1979	0.1317	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	1980	1989	0.0979	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	1990	1999	0.145	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	2000	2009	0.1195	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	2010	2019	0.1368	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HK	2020	2023	0.0419	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+HN	1900	1949	0.0233	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	1950	1959	0.0149	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	1960	1969	0.0268	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	1970	1979	0.0476	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	1980	1989	0.0809	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	1990	1999	0.1347	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	2000	2009	0.2123	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	2010	2019	0.304	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HN	2020	2023	0.1554	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HR	1850	1918	0.042	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HR	1919	1945	0.044	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HR	1946	1960	0.0685	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HR	1961	1980	0.3597	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HR	1981	2000	0.2774	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HR	2001	2010	0.1347	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HR	2011	2015	0.0369	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HR	2016	2021	0.0367	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HT	1900	1949	0.0442	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	1950	1959	0.0213	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	1960	1969	0.0352	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	1970	1979	0.0557	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	1980	1989	0.0883	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	1990	1999	0.1373	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	2000	2009	0.2022	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	2010	2019	0.2782	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HT	2020	2023	0.1376	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+HU	1850	1918	0.0677	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HU	1919	1945	0.0902	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HU	1946	1960	0.1164	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HU	1961	1980	0.3623	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HU	1981	2000	0.2272	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HU	2001	2010	0.0877	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HU	2011	2015	0.0146	measured	Eurostat census 2021 cens_21dwop_r3 2021
+HU	2016	2021	0.0339	measured	Eurostat census 2021 cens_21dwop_r3 2021
+ID	1900	1949	0.056	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	1950	1959	0.0288	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	1960	1969	0.0503	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	1970	1979	0.078	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	1980	1989	0.1098	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	1990	1999	0.144	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	2000	2009	0.185	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	2010	2019	0.2421	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ID	2020	2023	0.1061	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IE	1850	1918	0.0859	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IE	1919	1945	0.0635	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IE	1946	1960	0.0738	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IE	1961	1980	0.1939	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IE	1981	2000	0.2525	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IE	2001	2010	0.2512	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IE	2011	2015	0.0274	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IE	2016	2021	0.0518	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IL	1900	1949	0.058	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	1950	1959	0.0353	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	1960	1969	0.0625	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	1970	1979	0.0775	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	1980	1989	0.0833	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	1990	1999	0.1632	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	2000	2009	0.1784	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	2010	2019	0.2325	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IL	2020	2023	0.1094	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+IN	1900	1977	0.128	measured	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built 2018
+IN	1978	2012	0.7742	measured	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built 2018
+IN	2013	2017	0.0817	measured	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built 2018
+IN	2018	2018	0.0161	measured	NSO India, NSS Report No. 584 (76th round, July-December 2018), statement 26, owned dwellings by years since built 2018
+IQ	1900	1949	0.0291	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	1950	1959	0.0139	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	1960	1969	0.0281	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	1970	1979	0.0502	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	1980	1989	0.0736	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	1990	1999	0.1283	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	2000	2009	0.1841	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	2010	2019	0.3379	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IQ	2020	2023	0.1549	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	1900	1949	0.0419	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	1950	1959	0.0223	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	1960	1969	0.0416	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	1970	1979	0.0687	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	1980	1989	0.1392	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	1990	1999	0.1342	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	2000	2009	0.1902	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	2010	2019	0.2495	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IR	2020	2023	0.1124	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+IS	1850	1918	0.0147	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IS	1919	1945	0.0745	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IS	1946	1960	0.1268	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IS	1961	1980	0.2928	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IS	1981	2000	0.2285	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IS	2001	2010	0.1637	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IS	2011	2015	0.0264	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IS	2016	2021	0.0726	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	1850	1918	0.0892	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	1919	1945	0.0805	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	1946	1960	0.1443	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	1961	1980	0.3662	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	1981	2000	0.2045	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	2001	2010	0.0875	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	2011	2015	0.019	measured	Eurostat census 2021 cens_21dwop_r3 2021
+IT	2016	2021	0.0088	measured	Eurostat census 2021 cens_21dwop_r3 2021
+JM	1900	1949	0.1114	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	1950	1959	0.047	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	1960	1969	0.0618	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	1970	1979	0.0869	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	1980	1989	0.1119	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	1990	1999	0.1423	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	2000	2009	0.1649	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	2010	2019	0.1909	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JM	2020	2023	0.083	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+JO	1900	1949	0.0063	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	1950	1959	0.0084	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	1960	1969	0.0191	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	1970	1979	0.0303	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	1980	1989	0.0621	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	1990	1999	0.13	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	2000	2009	0.1875	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	2010	2019	0.4001	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JO	2020	2023	0.1562	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+JP	1900	1950	0.0217	measured	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 table 21-4) 2023
+JP	1951	1980	0.1905	measured	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 table 21-4) 2023
+JP	1981	1990	0.1714	measured	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 table 21-4) 2023
+JP	1991	2000	0.2012	measured	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 table 21-4) 2023
+JP	2001	2010	0.1895	measured	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 table 21-4) 2023
+JP	2011	2018	0.1399	measured	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 table 21-4) 2023
+JP	2019	2023	0.0858	measured	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 table 21-4) 2023
+KE	1900	1949	0.0168	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	1950	1959	0.0106	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	1960	1969	0.024	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	1970	1979	0.0417	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	1980	1989	0.0772	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	1990	1999	0.1238	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	2000	2009	0.2182	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	2010	2019	0.3249	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KE	2020	2023	0.1629	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	1900	1949	0.0391	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	1950	1959	0.022	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	1960	1969	0.0459	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	1970	1979	0.064	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	1980	1989	0.0923	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	1990	1999	0.1222	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	2000	2009	0.1518	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	2010	2019	0.2887	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KG	2020	2023	0.1742	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	1900	1949	0.0392	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	1950	1959	0.0219	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	1960	1969	0.0359	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	1970	1979	0.0314	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	1980	1989	0.073	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	1990	1999	0.205	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	2000	2009	0.184	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	2010	2019	0.2697	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KH	2020	2023	0.1398	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	1900	1949	0.0448	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	1950	1959	0.0248	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	1960	1969	0.0397	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	1970	1979	0.0445	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	1980	1989	0.0833	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	1990	1999	0.125	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	2000	2009	0.203	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	2010	2019	0.2813	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KI	2020	2023	0.1538	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	1900	1949	0.0301	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	1950	1959	0.0163	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	1960	1969	0.0257	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	1970	1979	0.0555	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	1980	1989	0.089	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	1990	1999	0.1224	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	2000	2009	0.1922	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	2010	2019	0.3054	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KM	2020	2023	0.1633	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+KN	1900	1949	0.3478	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	1950	1959	0.1134	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	1960	1969	0.0621	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	1970	1979	0.0524	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	1980	1989	0.0567	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	1990	1999	0.1155	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	2000	2009	0.1157	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	2010	2019	0.0969	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KN	2020	2023	0.0395	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KP	1900	1949	0.0467	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	1950	1959	0.0209	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	1960	1969	0.0455	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	1970	1979	0.0705	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	1980	1989	0.1003	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	1990	1999	0.1485	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	2000	2009	0.1856	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	2010	2019	0.2554	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KP	2020	2023	0.1266	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+KR	1900	1949	0.1582	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	1950	1959	0.0656	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	1960	1969	0.0948	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	1970	1979	0.1081	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	1980	1989	0.1274	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	1990	1999	0.116	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	2000	2009	0.1192	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	2010	2019	0.1605	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KR	2020	2023	0.0501	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	1900	1949	0.0183	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	1950	1959	0.0169	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	1960	1969	0.0677	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	1970	1979	0.1158	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	1980	1989	0.1656	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	1990	1999	0.1119	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	2000	2009	0.1304	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	2010	2019	0.2737	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KW	2020	2023	0.0997	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+KZ	1900	1949	0.0721	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	1950	1959	0.0456	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	1960	1969	0.0742	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	1970	1979	0.0978	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	1980	1989	0.1119	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	1990	1999	0.0982	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	2000	2009	0.1373	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	2010	2019	0.2408	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+KZ	2020	2023	0.122	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LA	1900	1949	0.0346	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	1950	1959	0.0199	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	1960	1969	0.0332	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	1970	1979	0.052	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	1980	1989	0.0918	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	1990	1999	0.1493	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	2000	2009	0.1917	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	2010	2019	0.2808	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LA	2020	2023	0.1467	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	1900	1949	0.0328	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	1950	1959	0.0213	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	1960	1969	0.0385	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	1970	1979	0.0548	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	1980	1989	0.0839	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	1990	1999	0.1279	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	2000	2009	0.1836	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	2010	2019	0.3638	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LB	2020	2023	0.0935	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LC	1900	1949	0.1174	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	1950	1959	0.0286	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	1960	1969	0.0486	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	1970	1979	0.0777	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	1980	1989	0.1133	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	1990	1999	0.1531	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	2000	2009	0.1762	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	2010	2019	0.1994	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LC	2020	2023	0.0857	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LI	1850	1918	0.0543	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LI	1919	1945	0.0339	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LI	1946	1960	0.0527	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LI	1961	1980	0.2598	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LI	1981	2000	0.3009	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LI	2001	2010	0.1549	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LI	2011	2015	0.0577	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LI	2016	2021	0.0858	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LK	1900	1949	0.0533	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	1950	1959	0.0287	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	1960	1969	0.0519	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	1970	1979	0.075	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	1980	1989	0.0913	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	1990	1999	0.148	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	2000	2009	0.1871	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	2010	2019	0.2464	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LK	2020	2023	0.1184	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LR	1900	1949	0.0185	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	1950	1959	0.0115	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	1960	1969	0.0219	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	1970	1979	0.0396	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	1980	1989	0.0747	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	1990	1999	0.1245	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	2000	2009	0.2106	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	2010	2019	0.3245	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LR	2020	2023	0.1742	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+LS	1900	1949	0.0391	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	1950	1959	0.0222	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	1960	1969	0.0461	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	1970	1979	0.0842	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	1980	1989	0.129	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	1990	1999	0.1482	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	2000	2009	0.1411	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	2010	2019	0.2564	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LS	2020	2023	0.1337	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+LT	1850	1918	0.0169	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LT	1919	1945	0.0696	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LT	1946	1960	0.074	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LT	1961	1980	0.392	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LT	1981	2000	0.2967	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LT	2001	2010	0.071	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LT	2011	2015	0.036	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LT	2016	2021	0.0439	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	1850	1918	0.0837	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	1919	1945	0.1049	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	1946	1960	0.1026	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	1961	1980	0.1908	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	1981	2000	0.2085	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	2001	2010	0.1365	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	2011	2015	0.0755	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LU	2016	2021	0.0976	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	1850	1918	0.0872	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	1919	1945	0.1029	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	1946	1960	0.0878	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	1961	1980	0.3979	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	1981	2000	0.2497	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	2001	2010	0.0528	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	2011	2015	0.0114	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LV	2016	2021	0.0104	measured	Eurostat census 2021 cens_21dwop_r3 2021
+LY	1900	1949	0.0345	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	1950	1959	0.0179	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	1960	1969	0.0374	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	1970	1979	0.0825	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	1980	1989	0.1147	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	1990	1999	0.1351	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	2000	2009	0.2043	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	2010	2019	0.2562	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+LY	2020	2023	0.1175	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MA	1900	1949	0.0373	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	1950	1959	0.0229	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	1960	1969	0.0402	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	1970	1979	0.0652	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	1980	1989	0.1037	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	1990	1999	0.1365	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	2000	2009	0.1905	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	2010	2019	0.2719	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MA	2020	2023	0.1318	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MC	1900	1949	0.1957	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	1950	1959	0.0542	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	1960	1969	0.0583	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	1970	1979	0.0846	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	1980	1989	0.1019	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	1990	1999	0.1076	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	2000	2009	0.083	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	2010	2019	0.2373	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MC	2020	2023	0.0773	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MD	1900	1949	0.1372	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	1950	1959	0.0609	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	1960	1969	0.0922	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	1970	1979	0.1057	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	1980	1989	0.1409	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	1990	1999	0.1214	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	2000	2009	0.1317	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	2010	2019	0.1347	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MD	2020	2023	0.0754	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	1900	1949	0.1383	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	1950	1959	0.0567	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	1960	1969	0.0738	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	1970	1979	0.0936	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	1980	1989	0.1103	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	1990	1999	0.1226	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	2000	2009	0.1326	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	2010	2019	0.1619	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ME	2020	2023	0.1102	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MG	1900	1949	0.0139	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	1950	1959	0.0096	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	1960	1969	0.0177	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	1970	1979	0.0335	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	1980	1989	0.0603	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	1990	1999	0.1136	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	2000	2009	0.2038	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	2010	2019	0.3491	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MG	2020	2023	0.1986	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MH	1900	1949	0.0592	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	1950	1959	0.0187	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	1960	1969	0.0615	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	1970	1979	0.1012	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	1980	1989	0.1891	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	1990	1999	0.1788	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	2000	2009	0.166	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	2010	2019	0.1627	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MH	2020	2023	0.0626	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	1900	1949	0.1348	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	1950	1959	0.0522	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	1960	1969	0.0757	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	1970	1979	0.1114	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	1980	1989	0.1209	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	1990	1999	0.1269	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	2000	2009	0.1507	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	2010	2019	0.1591	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MK	2020	2023	0.0683	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ML	1900	1949	0.0216	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	1950	1959	0.0114	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	1960	1969	0.0186	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	1970	1979	0.0314	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	1980	1989	0.0539	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	1990	1999	0.0929	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	2000	2009	0.1961	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	2010	2019	0.3601	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ML	2020	2023	0.2139	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MM	1900	1949	0.0514	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	1950	1959	0.0273	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	1960	1969	0.0472	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	1970	1979	0.0725	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	1980	1989	0.1086	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	1990	1999	0.1445	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	2000	2009	0.1805	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	2010	2019	0.2473	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MM	2020	2023	0.1208	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MN	1900	1949	0.0524	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	1950	1959	0.0243	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	1960	1969	0.048	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	1970	1979	0.0752	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	1980	1989	0.1125	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	1990	1999	0.1272	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	2000	2009	0.1473	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	2010	2019	0.2792	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MN	2020	2023	0.1339	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MO	1900	1949	0.1154	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	1950	1959	0.0188	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	1960	1969	0.0759	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	1970	1979	0.0542	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	1980	1989	0.1047	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	1990	1999	0.1275	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	2000	2009	0.1798	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	2010	2019	0.2262	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MO	2020	2023	0.0974	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+MR	1900	1949	0.021	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	1950	1959	0.0117	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	1960	1969	0.0227	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	1970	1979	0.0401	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	1980	1989	0.0677	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	1990	1999	0.1154	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	2000	2009	0.1825	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	2010	2019	0.3441	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MR	2020	2023	0.1947	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+MT	1850	1918	0.0456	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MT	1919	1945	0.0362	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MT	1946	1960	0.0514	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MT	1961	1980	0.1413	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MT	1981	2000	0.2219	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MT	2001	2010	0.1139	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MT	2011	2015	0.1321	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MT	2016	2021	0.2576	measured	Eurostat census 2021 cens_21dwop_r3 2021
+MU	1900	1949	0.0919	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	1950	1959	0.0496	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	1960	1969	0.0706	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	1970	1979	0.087	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	1980	1989	0.1201	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	1990	1999	0.1553	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	2000	2009	0.1725	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	2010	2019	0.1767	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MU	2020	2023	0.0764	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	1900	1949	0.0327	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	1950	1959	0.0148	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	1960	1969	0.0298	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	1970	1979	0.049	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	1980	1989	0.082	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	1990	1999	0.1177	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	2000	2009	0.1684	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	2010	2019	0.3508	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MV	2020	2023	0.1549	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MW	1900	1949	0.0154	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	1950	1959	0.0094	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	1960	1969	0.0177	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	1970	1979	0.0333	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	1980	1989	0.0786	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	1990	1999	0.1039	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	2000	2009	0.1913	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	2010	2019	0.3504	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MW	2020	2023	0.2001	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MX	1900	1949	0.0487	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	1950	1959	0.0276	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	1960	1969	0.0517	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	1970	1979	0.0804	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	1980	1989	0.1072	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	1990	1999	0.1456	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	2000	2009	0.1889	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	2010	2019	0.2442	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MX	2020	2023	0.1057	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	1900	1949	0.0399	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	1950	1959	0.0218	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	1960	1969	0.0348	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	1970	1979	0.0527	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	1980	1989	0.0991	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	1990	1999	0.1452	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	2000	2009	0.2095	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	2010	2019	0.2743	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MY	2020	2023	0.1226	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+MZ	1900	1949	0.0194	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	1950	1959	0.0097	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	1960	1969	0.0186	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	1970	1979	0.0395	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	1980	1989	0.0534	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	1990	1999	0.1173	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	2000	2009	0.1804	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	2010	2019	0.3498	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+MZ	2020	2023	0.2119	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NA	1900	1949	0.0279	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	1950	1959	0.0123	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	1960	1969	0.0246	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	1970	1979	0.044	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	1980	1989	0.072	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	1990	1999	0.1481	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	2000	2009	0.1674	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	2010	2019	0.3115	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NA	2020	2023	0.1923	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NE	1900	1949	0.011	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	1950	1959	0.0084	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	1960	1969	0.0153	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	1970	1979	0.0267	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	1980	1989	0.0502	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	1990	1999	0.0961	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	2000	2009	0.193	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	2010	2019	0.3778	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NE	2020	2023	0.2217	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+NG	1900	1949	0.0261	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	1950	1959	0.0134	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	1960	1969	0.023	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	1970	1979	0.0418	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	1980	1989	0.0728	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	1990	1999	0.1187	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	2000	2009	0.2037	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	2010	2019	0.3319	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NG	2020	2023	0.1685	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	1900	1949	0.0308	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	1950	1959	0.0203	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	1960	1969	0.0375	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	1970	1979	0.0646	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	1980	1989	0.0996	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	1990	1999	0.1445	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	2000	2009	0.1857	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	2010	2019	0.2767	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NI	2020	2023	0.1404	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NL	1850	1918	0.0707	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NL	1919	1945	0.1114	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NL	1946	1960	0.1037	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NL	1961	1980	0.2916	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NL	1981	2000	0.2597	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NL	2001	2010	0.0913	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NL	2011	2015	0.0313	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NL	2016	2021	0.0403	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	1850	1918	0.0828	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	1919	1945	0.0728	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	1946	1960	0.1306	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	1961	1980	0.2682	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	1981	2000	0.2191	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	2001	2010	0.1131	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	2011	2015	0.0539	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NO	2016	2021	0.0594	measured	Eurostat census 2021 cens_21dwop_r3 2021
+NP	1900	1949	0.0442	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	1950	1959	0.0228	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	1960	1969	0.0379	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	1970	1979	0.063	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	1980	1989	0.1025	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	1990	1999	0.1701	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	2000	2009	0.2008	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	2010	2019	0.2147	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NP	2020	2023	0.144	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+NR	1900	1949	0.1171	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	1950	1959	0.0543	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	1960	1969	0.1124	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	1970	1979	0.08	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	1980	1989	0.151	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	1990	1999	0.123	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	2000	2009	0.0806	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	2010	2019	0.2118	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NR	2020	2023	0.0698	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	1900	1949	0.1524	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	1950	1959	0.0568	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	1960	1969	0.0728	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	1970	1979	0.0787	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	1980	1989	0.0693	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	1990	1999	0.1276	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	2000	2009	0.1457	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	2010	2019	0.2114	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+NZ	2020	2023	0.0854	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	1900	1949	0.0392	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	1950	1959	0.011	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	1960	1969	0.0194	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	1970	1979	0.0434	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	1980	1989	0.1088	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	1990	1999	0.1191	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	2000	2009	0.1145	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	2010	2019	0.4152	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+OM	2020	2023	0.1294	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	1900	1949	0.0804	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	1950	1959	0.0341	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	1960	1969	0.0584	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	1970	1979	0.0802	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	1980	1989	0.1054	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	1990	1999	0.1374	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	2000	2009	0.179	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	2010	2019	0.2294	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PA	2020	2023	0.0957	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PE	1900	1949	0.0519	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	1950	1959	0.0293	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	1960	1969	0.0504	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	1970	1979	0.0749	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	1980	1989	0.1141	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	1990	1999	0.1566	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	2000	2009	0.1694	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	2010	2019	0.2376	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PE	2020	2023	0.116	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PG	1900	1949	0.0237	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	1950	1959	0.0143	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	1960	1969	0.0234	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	1970	1979	0.0374	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	1980	1989	0.0579	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	1990	1999	0.1244	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	2000	2009	0.2186	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	2010	2019	0.3354	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PG	2020	2023	0.165	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	1900	1949	0.0258	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	1950	1959	0.021	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	1960	1969	0.0353	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	1970	1979	0.0523	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	1980	1989	0.0914	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	1990	1999	0.142	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	2000	2009	0.207	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	2010	2019	0.2957	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PH	2020	2023	0.1294	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	1900	1949	0.0231	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	1950	1959	0.0134	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	1960	1969	0.0248	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	1970	1979	0.0443	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	1980	1989	0.087	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	1990	1999	0.1392	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	2000	2009	0.2182	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	2010	2019	0.2925	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PK	2020	2023	0.1575	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PL	1850	1918	0.0621	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PL	1919	1945	0.091	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PL	1946	1960	0.0995	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PL	1961	1980	0.2886	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PL	1981	2000	0.2382	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PL	2001	2010	0.1055	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PL	2011	2015	0.0503	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PL	2016	2021	0.0648	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PS	1900	1949	0.0279	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	1950	1959	0.0119	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	1960	1969	0.0161	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	1970	1979	0.0338	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	1980	1989	0.0731	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	1990	1999	0.1464	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	2000	2009	0.2004	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	2010	2019	0.3173	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PS	2020	2023	0.173	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+PT	1850	1918	0.0251	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PT	1919	1945	0.042	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PT	1946	1960	0.0765	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PT	1961	1980	0.2697	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PT	1981	2000	0.3802	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PT	2001	2010	0.1789	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PT	2011	2015	0.0121	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PT	2016	2021	0.0155	measured	Eurostat census 2021 cens_21dwop_r3 2021
+PW	1900	1949	0.1535	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	1950	1959	0.0567	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	1960	1969	0.0824	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	1970	1979	0.0831	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	1980	1989	0.1302	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	1990	1999	0.2087	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	2000	2009	0.1378	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	2010	2019	0.1055	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PW	2020	2023	0.042	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+PY	1900	1949	0.0504	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	1950	1959	0.0246	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	1960	1969	0.0409	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	1970	1979	0.0637	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	1980	1989	0.1092	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	1990	1999	0.1615	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	2000	2009	0.1762	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	2010	2019	0.2516	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+PY	2020	2023	0.1218	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+QA	1900	1949	0.0041	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	1950	1959	0.0022	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	1960	1969	0.0135	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	1970	1979	0.0351	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	1980	1989	0.0472	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	1990	1999	0.0609	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	2000	2009	0.2779	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	2010	2019	0.4521	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+QA	2020	2023	0.1071	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RO	1850	1918	0.0147	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RO	1919	1945	0.0598	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RO	1946	1960	0.1401	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RO	1961	1980	0.4367	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RO	1981	2000	0.1826	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RO	2001	2010	0.0763	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RO	2011	2015	0.0331	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RO	2016	2021	0.0567	measured	Eurostat census 2021 cens_21dwop_r3 2021
+RS	1900	1949	0.1784	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	1950	1959	0.0617	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	1960	1969	0.0813	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	1970	1979	0.0979	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	1980	1989	0.1025	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	1990	1999	0.1148	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	2000	2009	0.1358	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	2010	2019	0.1584	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RS	2020	2023	0.0692	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+RU	1900	1949	0.2795	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	1950	1959	0.0807	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	1960	1969	0.0867	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	1970	1979	0.088	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	1980	1989	0.114	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	1990	1999	0.0919	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	2000	2009	0.0934	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	2010	2019	0.1193	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RU	2020	2023	0.0467	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+RW	1900	1949	0.0175	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	1950	1959	0.0144	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	1960	1969	0.0247	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	1970	1979	0.0459	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	1980	1989	0.0888	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	1990	1999	0.1713	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	2000	2009	0.1663	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	2010	2019	0.3026	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+RW	2020	2023	0.1684	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SA	1900	1949	0.0218	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	1950	1959	0.0119	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	1960	1969	0.0211	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	1970	1979	0.0461	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	1980	1989	0.0988	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	1990	1999	0.1439	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	2000	2009	0.2563	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	2010	2019	0.278	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SA	2020	2023	0.1221	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SB	1900	1949	0.0217	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	1950	1959	0.0129	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	1960	1969	0.0217	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	1970	1979	0.0394	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	1980	1989	0.0759	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	1990	1999	0.1239	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	2000	2009	0.1628	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	2010	2019	0.3668	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SB	2020	2023	0.1748	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SC	1900	1949	0.1248	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	1950	1959	0.0308	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	1960	1969	0.0625	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	1970	1979	0.087	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	1980	1989	0.0776	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	1990	1999	0.1002	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	2000	2009	0.1396	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	2010	2019	0.2532	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SC	2020	2023	0.1242	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SD	1900	1949	0.0134	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	1950	1959	0.0101	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	1960	1969	0.0205	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	1970	1979	0.0415	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	1980	1989	0.068	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	1990	1999	0.1066	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	2000	2009	0.1871	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	2010	2019	0.3489	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SD	2020	2023	0.204	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SE	1850	1918	0.0638	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SE	1919	1945	0.1628	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SE	1946	1960	0.1667	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SE	1961	1980	0.3424	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SE	1981	2000	0.1375	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SE	2001	2010	0.05	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SE	2011	2015	0.0283	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SE	2016	2021	0.0486	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SG	1900	1949	0.0705	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	1950	1959	0.0523	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	1960	1969	0.0589	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	1970	1979	0.0575	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	1980	1989	0.0881	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	1990	1999	0.1742	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	2000	2009	0.2026	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	2010	2019	0.2094	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SG	2020	2023	0.0865	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SI	1850	1918	0.1126	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SI	1919	1945	0.0612	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SI	1946	1960	0.0932	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SI	1961	1980	0.3643	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SI	1981	2000	0.2396	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SI	2001	2010	0.0921	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SI	2011	2015	0.0225	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SI	2016	2021	0.0144	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	1850	1918	0.0221	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	1919	1945	0.0644	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	1946	1960	0.141	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	1961	1980	0.4037	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	1981	2000	0.2403	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	2001	2010	0.0645	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	2011	2015	0.0335	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SK	2016	2021	0.0304	measured	Eurostat census 2021 cens_21dwop_r3 2021
+SL	1900	1949	0.0257	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	1950	1959	0.0129	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	1960	1969	0.0232	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	1970	1979	0.0387	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	1980	1989	0.0699	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	1990	1999	0.0861	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	2000	2009	0.2157	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	2010	2019	0.339	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SL	2020	2023	0.189	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SM	1900	1949	0.1539	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	1950	1959	0.0468	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	1960	1969	0.0713	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	1970	1979	0.0885	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	1980	1989	0.0805	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	1990	1999	0.1271	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	2000	2009	0.16	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	2010	2019	0.2192	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SM	2020	2023	0.0527	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+SN	1900	1949	0.0225	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	1950	1959	0.014	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	1960	1969	0.0258	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	1970	1979	0.043	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	1980	1989	0.0719	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	1990	1999	0.1184	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	2000	2009	0.1856	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	2010	2019	0.336	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SN	2020	2023	0.1828	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SO	1900	1949	0.0132	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	1950	1959	0.0093	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	1960	1969	0.0168	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	1970	1979	0.0354	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	1980	1989	0.0716	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	1990	1999	0.0944	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	2000	2009	0.2001	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	2010	2019	0.339	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SO	2020	2023	0.2201	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SR	1900	1949	0.0702	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	1950	1959	0.0406	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	1960	1969	0.0823	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	1970	1979	0.0659	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	1980	1989	0.0784	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	1990	1999	0.1265	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	2000	2009	0.1927	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	2010	2019	0.2329	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SR	2020	2023	0.1104	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SS	1900	1949	0.022	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	1950	1959	0.0122	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	1960	1969	0.0196	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	1970	1979	0.0369	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	1980	1989	0.0546	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	1990	1999	0.0861	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	2000	2009	0.2574	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	2010	2019	0.3478	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SS	2020	2023	0.1634	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ST	1900	1949	0.0417	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	1950	1959	0.0174	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	1960	1969	0.0263	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	1970	1979	0.0528	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	1980	1989	0.0829	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	1990	1999	0.1184	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	2000	2009	0.202	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	2010	2019	0.2966	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ST	2020	2023	0.1619	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SV	1900	1949	0.0787	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	1950	1959	0.0403	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	1960	1969	0.0715	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	1970	1979	0.1017	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	1980	1989	0.1293	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	1990	1999	0.157	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	2000	2009	0.1459	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	2010	2019	0.1876	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SV	2020	2023	0.0879	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+SY	1900	1949	0.0152	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	1950	1959	0.0103	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	1960	1969	0.0212	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	1970	1979	0.0414	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	1980	1989	0.0788	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	1990	1999	0.1342	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	2000	2009	0.2491	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	2010	2019	0.2459	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SY	2020	2023	0.2039	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+SZ	1900	1949	0.0346	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	1950	1959	0.0204	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	1960	1969	0.0346	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	1970	1979	0.0639	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	1980	1989	0.1304	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	1990	1999	0.1789	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	2000	2009	0.173	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	2010	2019	0.2323	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+SZ	2020	2023	0.1319	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TD	1900	1949	0.0147	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	1950	1959	0.0086	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	1960	1969	0.015	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	1970	1979	0.0254	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	1980	1989	0.0482	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	1990	1999	0.0995	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	2000	2009	0.1994	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	2010	2019	0.3666	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TD	2020	2023	0.2227	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	1900	1949	0.0164	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	1950	1959	0.0095	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	1960	1969	0.0195	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	1970	1979	0.0354	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	1980	1989	0.068	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	1990	1999	0.1173	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	2000	2009	0.1991	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	2010	2019	0.3421	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TG	2020	2023	0.1926	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+TH	1900	1949	0.0647	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	1950	1959	0.0356	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	1960	1969	0.0633	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	1970	1979	0.0922	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	1980	1989	0.121	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	1990	1999	0.1566	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	2000	2009	0.181	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	2010	2019	0.2048	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TH	2020	2023	0.0808	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TJ	1900	1949	0.0233	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	1950	1959	0.0166	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	1960	1969	0.031	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	1970	1979	0.0531	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	1980	1989	0.092	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	1990	1999	0.114	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	2000	2009	0.1774	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	2010	2019	0.3208	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TJ	2020	2023	0.1718	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	1900	1949	0.045	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	1950	1959	0.0189	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	1960	1969	0.0324	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	1970	1979	0.0491	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	1980	1989	0.0719	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	1990	1999	0.1443	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	2000	2009	0.2224	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	2010	2019	0.2786	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TL	2020	2023	0.1374	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TM	1900	1949	0.0398	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	1950	1959	0.0206	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	1960	1969	0.0385	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	1970	1979	0.0567	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	1980	1989	0.0957	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	1990	1999	0.1262	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	2000	2009	0.1817	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	2010	2019	0.292	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TM	2020	2023	0.1486	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TN	1900	1949	0.0464	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	1950	1959	0.0233	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	1960	1969	0.0355	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	1970	1979	0.069	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	1980	1989	0.1083	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	1990	1999	0.1494	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	2000	2009	0.1807	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	2010	2019	0.2664	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TN	2020	2023	0.121	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TO	1900	1949	0.1045	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	1950	1959	0.0598	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	1960	1969	0.0945	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	1970	1979	0.1156	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	1980	1989	0.0914	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	1990	1999	0.1176	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	2000	2009	0.1676	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	2010	2019	0.1729	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TO	2020	2023	0.0761	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	1900	1949	0.0547	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	1950	1959	0.0323	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	1960	1969	0.0511	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	1970	1979	0.0718	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	1980	1989	0.1064	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	1990	1999	0.1389	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	2000	2009	0.169	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	2010	2019	0.2753	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TR	2020	2023	0.1005	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TT	1900	1949	0.1755	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	1950	1959	0.0753	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	1960	1969	0.087	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	1970	1979	0.0917	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	1980	1989	0.1141	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	1990	1999	0.107	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	2000	2009	0.1182	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	2010	2019	0.1709	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TT	2020	2023	0.0602	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+TV	1900	1949	0.0973	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	1950	1959	0.0433	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	1960	1969	0.0382	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	1970	1979	0.0943	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	1980	1989	0.1281	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	1990	1999	0.1371	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	2000	2009	0.1814	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	2010	2019	0.2089	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TV	2020	2023	0.0714	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	1900	1949	0.0728	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	1950	1959	0.0506	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	1960	1969	0.0829	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	1970	1979	0.101	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	1980	1989	0.1272	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	1990	1999	0.1431	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	2000	2009	0.1601	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	2010	2019	0.1851	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TW	2020	2023	0.0772	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+TZ	1900	1949	0.0184	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	1950	1959	0.0112	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	1960	1969	0.0215	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	1970	1979	0.0422	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	1980	1989	0.0708	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	1990	1999	0.1111	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	2000	2009	0.1886	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	2010	2019	0.3401	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+TZ	2020	2023	0.1962	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UA	1900	1949	0.1695	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	1950	1959	0.0643	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	1960	1969	0.0844	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	1970	1979	0.0935	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	1980	1989	0.1139	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	1990	1999	0.122	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	2000	2009	0.132	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	2010	2019	0.1543	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UA	2020	2023	0.0661	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+UG	1900	1949	0.013	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	1950	1959	0.0095	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	1960	1969	0.0183	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	1970	1979	0.0309	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	1980	1989	0.0542	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	1990	1999	0.1064	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	2000	2009	0.1922	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	2010	2019	0.3568	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+UG	2020	2023	0.2187	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+US	1900	1939	0.112	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	1940	1949	0.0428	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	1950	1959	0.0943	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	1960	1969	0.0966	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	1970	1979	0.1384	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	1980	1989	0.1264	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	1990	1999	0.1211	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	2000	2009	0.1399	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	2010	2019	0.0993	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	2020	2020	0.0113	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	2021	2021	0.0102	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	2022	2022	0.0061	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+US	2023	2023	0.0017	measured	US Census Bureau ACS 2023 PUMS (YRBLT)
+UY	1900	1949	0.2699	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	1950	1959	0.0691	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	1960	1969	0.0867	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	1970	1979	0.0833	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	1980	1989	0.0929	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	1990	1999	0.1141	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	2000	2009	0.1059	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	2010	2019	0.1303	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UY	2020	2023	0.0478	modelled	UN WPP 2024 population growth since 1950, 1.2% of the stock replaced a year
+UZ	1900	1949	0.0278	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	1950	1959	0.0172	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	1960	1969	0.0376	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	1970	1979	0.059	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	1980	1989	0.0968	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	1990	1999	0.1388	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	2000	2009	0.1753	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	2010	2019	0.2845	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+UZ	2020	2023	0.1631	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VA	1900	1949	0.1727	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	1950	1959	0.0511	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	1960	1969	0.0706	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	1970	1979	0.0865	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	1980	1989	0.0918	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	1990	1999	0.1125	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	2000	2009	0.1607	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	2010	2019	0.1784	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VA	2020	2023	0.0758	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	1900	1949	0.125	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	1950	1959	0.0763	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	1960	1969	0.0864	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	1970	1979	0.0953	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	1980	1989	0.1203	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	1990	1999	0.124	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	2000	2009	0.1403	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	2010	2019	0.1615	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VC	2020	2023	0.0711	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	1900	1949	0.0407	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	1950	1959	0.0303	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	1960	1969	0.0503	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	1970	1979	0.0773	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	1980	1989	0.1177	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	1990	1999	0.165	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	2000	2009	0.2152	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	2010	2019	0.2301	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VE	2020	2023	0.0735	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+VN	1900	1949	0.0393	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	1950	1959	0.0236	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	1960	1969	0.041	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	1970	1979	0.065	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	1980	1989	0.1015	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	1990	1999	0.1444	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	2000	2009	0.1896	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	2010	2019	0.2701	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VN	2020	2023	0.1256	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	1900	1949	0.0257	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	1950	1959	0.014	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	1960	1969	0.0281	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	1970	1979	0.0497	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	1980	1989	0.0749	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	1990	1999	0.1197	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	2000	2009	0.199	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	2010	2019	0.3134	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+VU	2020	2023	0.1755	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+WS	1900	1949	0.0924	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	1950	1959	0.047	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	1960	1969	0.0759	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	1970	1979	0.0953	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	1980	1989	0.0838	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	1990	1999	0.1188	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	2000	2009	0.1533	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	2010	2019	0.2249	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+WS	2020	2023	0.1085	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	1900	1949	0.1784	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	1950	1959	0.0617	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	1960	1969	0.0813	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	1970	1979	0.0979	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	1980	1989	0.1025	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	1990	1999	0.1148	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	2000	2009	0.1358	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	2010	2019	0.1584	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+XK	2020	2023	0.0692	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+YE	1900	1949	0.013	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	1950	1959	0.0074	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	1960	1969	0.0144	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	1970	1979	0.028	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	1980	1989	0.0594	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	1990	1999	0.1131	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	2000	2009	0.1969	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	2010	2019	0.3584	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+YE	2020	2023	0.2094	modelled	UN WPP 2024 population growth since 1950, 3.0% of the stock replaced a year
+ZA	1900	1949	0.0473	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	1950	1959	0.0232	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	1960	1969	0.045	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	1970	1979	0.0712	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	1980	1989	0.1275	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	1990	1999	0.1422	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	2000	2009	0.1603	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	2010	2019	0.2523	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZA	2020	2023	0.131	modelled	UN WPP 2024 population growth since 1950, 2.0% of the stock replaced a year
+ZM	1900	1949	0.018	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	1950	1959	0.0122	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	1960	1969	0.0228	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	1970	1979	0.0381	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	1980	1989	0.0665	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	1990	1999	0.1016	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	2000	2009	0.199	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	2010	2019	0.3501	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZM	2020	2023	0.1918	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	1900	1949	0.0271	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	1950	1959	0.0187	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	1960	1969	0.0344	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	1970	1979	0.0553	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	1980	1989	0.1205	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	1990	1999	0.1399	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	2000	2009	0.1705	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	2010	2019	0.2791	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year
+ZW	2020	2023	0.1545	modelled	UN WPP 2024 population growth since 1950, 2.5% of the stock replaced a year

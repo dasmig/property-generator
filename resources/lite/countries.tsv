@@ -1,0 +1,201 @@
+# country-generator (population; the locale's currency); World Bank SP.URB.TOTL.IN.ZS and EC JRC GHS-DUC (city, town, rural); OECD IDD (net_to_gross); reference_income: US ACS PUMS and occupation-generator earnings (0: none)
+country_code	population	currency	currency_digits	subregion	city	town	rural	net_to_gross	reference_income	area_evidence
+AD	88406	EUR	2	Southern Europe	0	0.889	0.111	0.766	46648	measured
+AE	11294243	AED	2	Western Asia	0.7	0.16	0.14	0.834	116228	measured
+AF	43844000	AFN	2	Southern Asia	0.127	0.132	0.741	0.78	29469	measured
+AG	103603	XCD	2	Caribbean	0	0.243	0.757	0.78	42111	measured
+AL	2363314	ALL	2	Southeast Europe	0.476	0.221	0.303	0.772	1628877	modelled
+AM	3076200	AMD	2	Western Asia	0.349	0.31	0.341	0.834	2122565	measured
+AO	36170961	AOA	2	Middle Africa	0.606	0.108	0.285	0.78	1170233	measured
+AR	46735004	ARS	2	South America	0.689	0.234	0.076	0.915	12570182	measured
+AT	9200931	EUR	2	Central Europe	0.339	0.253	0.408	0.767	74284	modelled
+AU	27536874	AUD	2	Australia and New Zealand	0.597	0.281	0.123	0.807	90655	measured
+AZ	10241722	AZN	2	Western Asia	0.312	0.275	0.414	0.834	8750	measured
+BA	3422000	BAM	2	Southeast Europe	0.167	0.36	0.473	0.772	31004	measured
+BB	267800	BBD	2	Caribbean	0.374	0.223	0.403	0.78	36670	measured
+BD	169828911	BDT	2	Southern Asia	0.17	0.163	0.668	0.78	210476	measured
+BE	11825551	EUR	2	Western Europe	0.331	0.457	0.213	0.727	88584	modelled
+BF	24070553	XOF	0	Western Africa	0.151	0.139	0.711	0.78	671424	measured
+BG	6437360	EUR	2	Southeast Europe	0.303	0.295	0.402	0.842	16672	modelled
+BH	1594654	BHD	3	Western Asia	0.92	0.08	0	0.834	7913	measured
+BI	12332788	BIF	0	Eastern Africa	0.047	0.21	0.743	0.78	1780292	measured
+BJ	13224860	XOF	0	Western Africa	0.293	0.24	0.466	0.78	830242	measured
+BN	455500	BND	2	South-Eastern Asia	0.282	0.468	0.25	0.78	19687	measured
+BO	11365333	BOB	2	South America	0.556	0.16	0.284	0.915	42767	measured
+BR	213421037	BRL	2	South America	0.61	0.271	0.118	0.936	37117	measured
+BS	398165	BSD	2	Caribbean	0.615	0.199	0.187	0.78	25949	measured
+BT	784043	BTN	2	Southern Asia	0.148	0.286	0.566	0.78	362749	measured
+BW	2359609	BWP	2	Southern Africa	0.259	0.421	0.32	0.78	56284	measured
+BY	9109280	BYN	2	Eastern Europe	0.595	0.2	0.205	0.78	22547	measured
+BZ	417634	BZD	2	Central America	0.134	0.282	0.584	0.94	20539	measured
+CA	41651653	CAD	2	North America	0.599	0.23	0.171	0.798	76817	measured
+CD	112832000	CDF	2	Middle Africa	0.301	0.15	0.549	0.78	1133608	measured
+CF	6470307	XAF	0	Middle Africa	0.207	0.239	0.554	0.78	152855	measured
+CG	6142180	XAF	0	Middle Africa	0.536	0.105	0.359	0.78	691187	measured
+CH	9082848	CHF	2	Western Europe	0.322	0.446	0.232	0.741	81396	modelled
+CI	31719275	XOF	0	Western Africa	0.311	0.234	0.455	0.78	1314886	measured
+CL	20206953	CLP	0	South America	0.71	0.182	0.108	0.895	11777116	measured
+CM	29442327	XAF	0	Middle Africa	0.405	0.152	0.443	0.78	1183899	measured
+CN	1408280000	CNY	2	Eastern Asia	0.357	0.306	0.337	0.828	72114	measured
+CO	53057212	COP	2	South America	0.605	0.183	0.212	0.915	24070166	measured
+CR	5309625	CRC	2	Central America	0.531	0.266	0.203	0.94	7444512	measured
+CU	9748007	CUP	2	Caribbean	0.439	0.333	0.228	0.78	63655	measured
+CV	491233	CVE	2	Western Africa	0.418	0.358	0.224	0.78	430518	measured
+CY	1442614	EUR	2	Southern Europe	0.571	0.2	0.228	0.766	35168	modelled
+CZ	10882341	CZK	2	Central Europe	0.225	0.379	0.395	0.868	853250	modelled
+DE	83491249	EUR	2	Western Europe	0.348	0.382	0.27	0.745	62796	modelled
+DJ	1066809	DJF	0	Eastern Africa	0.632	0.098	0.27	0.78	1348832	measured
+DK	6011488	DKK	2	Northern Europe	0.306	0.345	0.349	0.659	650059	modelled
+DM	67408	XCD	2	Caribbean	0	0.74	0.26	0.78	18354	measured
+DO	10771504	DOP	2	Caribbean	0.522	0.203	0.275	0.78	390058	measured
+DZ	47400000	DZD	2	Northern Africa	0.408	0.35	0.242	0.78	600285	measured
+EC	18103660	USD	2	South America	0.45	0.184	0.366	0.915	7301	measured
+EE	1369995	EUR	2	Northern Europe	0.393	0.263	0.344	0.833	38216	modelled
+EG	107271260	EGP	2	Northern Africa	0.302	0.127	0.571	0.78	75882	measured
+ER	3607000	ERN	2	Eastern Africa	0.211	0.135	0.655	0.78	0	measured
+ES	49315949	EUR	2	Southern Europe	0.524	0.264	0.213	0.812	41576	modelled
+ET	111652998	ETB	2	Eastern Africa	0.087	0.154	0.759	0.78	112003	measured
+FI	5650325	EUR	2	Northern Europe	0.262	0.345	0.393	0.785	71508	modelled
+FJ	900869	FJD	2	Melanesia	0.336	0.259	0.405	0.78	16396	measured
+FM	105564	USD	2	Micronesia	0	0.225	0.775	0.78	4949	measured
+FR	66351959	EUR	2	Western Europe	0.358	0.261	0.382	0.856	58896	modelled
+GA	2469296	XAF	0	Middle Africa	0.706	0.215	0.079	0.78	1259752	measured
+GB	69281437	GBP	2	Northern Europe	0.568	0.265	0.167	0.716	41280	measured
+GD	109021	XCD	2	Caribbean	0	0.367	0.633	0.78	20239	measured
+GE	4000921	GEL	2	Western Asia	0.329	0.283	0.388	0.834	12615	measured
+GH	33742380	GHS	2	Western Africa	0.383	0.207	0.411	0.78	22135	measured
+GM	2422712	GMD	2	Western Africa	0.471	0.179	0.35	0.78	87290	measured
+GN	14363931	GNF	0	Western Africa	0.256	0.129	0.615	0.78	33947401	measured
+GQ	1668768	XAF	0	Middle Africa	0.67	0.045	0.284	0.78	2757873	measured
+GR	10400720	EUR	2	Southern Europe	0.454	0.215	0.331	0.734	28267	modelled
+GT	18079810	GTQ	2	Central America	0.237	0.326	0.437	0.94	48785	measured
+GW	1781308	XOF	0	Western Africa	0.302	0.165	0.533	0.78	990690	measured
+GY	772975	GYD	2	South America	0.103	0.162	0.735	0.915	1818012	measured
+HK	7527500	HKD	2	Eastern Asia	1	0	0	0.828	323359	modelled
+HN	9892632	HNL	2	Central America	0.393	0.2	0.407	0.94	135318	measured
+HR	3866233	EUR	2	Southeast Europe	0.281	0.269	0.45	0.808	29134	modelled
+HT	11867032	HTG	2	Caribbean	0.246	0.31	0.444	0.78	315821	measured
+HU	9539502	HUF	2	Central Europe	0.281	0.345	0.374	0.747	6281557	modelled
+ID	284438782	IDR	2	South-Eastern Asia	0.365	0.229	0.406	0.78	32318631	measured
+IE	5458600	EUR	2	Northern Europe	0.276	0.261	0.462	0.748	61195	modelled
+IL	10134800	ILS	2	Western Asia	0.668	0.247	0.084	0.806	128146	measured
+IN	1417492000	INR	2	Southern Asia	0.169	0.188	0.643	0.78	206623	measured
+IQ	46118793	IQD	3	Western Asia	0.541	0.158	0.301	0.834	5409468	measured
+IR	85961000	IRR	2	Southern Asia	0.554	0.22	0.226	0.78	2249610143	measured
+IS	391810	ISK	0	Northern Europe	0.673	0.27	0.058	0.698	16184522	measured
+IT	58927633	EUR	2	Southern Europe	0.363	0.404	0.233	0.754	48305	modelled
+JM	2825544	JMD	2	Caribbean	0.379	0.215	0.406	0.78	472215	measured
+JO	11734000	JOD	3	Western Asia	0.732	0.2	0.068	0.834	4970	measured
+JP	123210000	JPY	0	Eastern Asia	0.7	0.223	0.077	0.784	5000500	measured
+KE	53330978	KES	2	Eastern Africa	0.105	0.217	0.678	0.78	201749	measured
+KG	7281800	KGS	2	Central Asia	0.16	0.188	0.653	0.78	212081	measured
+KH	17577760	KHR	2	South-Eastern Asia	0.14	0.271	0.589	0.78	16299694	measured
+KI	120740	AUD	2	Micronesia	0	0.634	0.366	0.78	7446	measured
+KM	919901	KMF	0	Eastern Africa	0.181	0.158	0.661	0.78	1611121	measured
+KN	51320	XCD	2	Caribbean	0	0.319	0.681	0.78	42128	measured
+KP	25950000	KPW	2	Eastern Asia	0.434	0.208	0.358	0.828	0	measured
+KR	51159889	KRW	0	Eastern Asia	0.682	0.13	0.188	0.872	44308655	measured
+KW	4881254	KWD	3	Western Asia	0.915	0.085	0	0.834	6865	measured
+KZ	20426568	KZT	2	Central Asia	0.367	0.257	0.376	0.78	5725589	measured
+LA	7647000	LAK	2	South-Eastern Asia	0.074	0.329	0.597	0.78	51156363	measured
+LB	5490000	LBP	2	Western Asia	0.511	0.399	0.09	0.834	319893737	measured
+LC	184100	XCD	2	Caribbean	0	0.291	0.709	0.78	33475	measured
+LI	40900	CHF	2	Western Europe	0	0.146	0.854	0.756	253877	measured
+LK	21763170	LKR	2	Southern Asia	0.082	0.122	0.795	0.78	610830	measured
+LR	5248621	LRD	2	Western Africa	0.426	0.135	0.439	0.78	998	measured
+LS	2116427	LSL	2	Southern Africa	0.145	0.302	0.553	0.78	22636	measured
+LT	2894886	EUR	2	Northern Europe	0.291	0.284	0.425	0.723	30761	modelled
+LU	681973	EUR	2	Western Europe	0.239	0.461	0.299	0.734	102409	modelled
+LV	1829000	EUR	2	Northern Europe	0.33	0.231	0.439	0.818	30663	modelled
+LY	7459000	LYD	3	Northern Africa	0.54	0.339	0.121	0.78	25928	measured
+MA	36828330	MAD	2	Northern Africa	0.427	0.204	0.369	0.78	34213	measured
+MC	38423	EUR	2	Western Europe	1	0	0	0.756	311937	modelled
+MD	2749076	MDL	2	Eastern Europe	0.181	0.256	0.563	0.78	121199	measured
+ME	623327	EUR	2	Southeast Europe	0.263	0.393	0.344	0.772	14755	measured
+MG	31727042	MGA	2	Eastern Africa	0.148	0.181	0.671	0.78	4537732	measured
+MH	42418	USD	2	Micronesia	0	0.791	0.209	0.78	9330	measured
+MK	1822612	MKD	2	Southeast Europe	0.366	0.364	0.269	0.772	753129	modelled
+ML	22395489	XOF	0	Western Africa	0.182	0.14	0.678	0.78	827722	measured
+MM	51316756	MMK	2	South-Eastern Asia	0.169	0.137	0.694	0.78	3010515	measured
+MN	3544835	MNT	2	Eastern Asia	0.482	0.229	0.289	0.828	26374477	measured
+MO	685900	MOP	2	Eastern Asia	1	0	0	0.828	273606	modelled
+MR	4927532	MRU	2	Western Africa	0.403	0.212	0.385	0.78	110105	measured
+MT	574250	EUR	2	Southern Europe	0.683	0.269	0.048	0.766	33187	modelled
+MU	1243741	MUR	2	Eastern Africa	0.183	0.207	0.61	0.78	413292	measured
+MV	515132	MVR	2	Southern Asia	0.339	0.086	0.575	0.78	162750	measured
+MW	20734262	MWK	2	Eastern Africa	0.03	0.146	0.824	0.78	1485135	measured
+MX	130575786	MXN	2	North America	0.558	0.242	0.2	0.798	139950	measured
+MY	34231700	MYR	2	South-Eastern Asia	0.521	0.253	0.226	0.78	52480	measured
+MZ	34090466	MZN	2	Eastern Africa	0.207	0.165	0.628	0.78	134315	measured
+NA	3022401	NAD	2	Southern Africa	0.27	0.238	0.491	0.78	55037	measured
+NE	26312034	XOF	0	Western Africa	0.082	0.101	0.816	0.78	923515	measured
+NG	223800000	NGN	2	Western Africa	0.386	0.252	0.362	0.78	932578	measured
+NI	6803886	NIO	2	Central America	0.321	0.273	0.406	0.94	192576	measured
+NL	18100436	EUR	2	Western Europe	0.496	0.345	0.159	0.732	75928	modelled
+NO	5606944	NOK	2	Northern Europe	0.274	0.378	0.348	0.745	928700	modelled
+NP	29911840	NPR	2	Southern Asia	0.206	0.464	0.33	0.78	354381	measured
+NR	11680	AUD	2	Micronesia	0	1	0	0.78	25687	measured
+NZ	5324700	NZD	2	Australia and New Zealand	0.544	0.296	0.16	0.775	70592	measured
+OM	5343630	OMR	3	Western Asia	0.422	0.372	0.205	0.834	5237	measured
+PA	4064780	PAB	2	Central America	0.481	0.181	0.338	0.94	10866	measured
+PE	34350244	PEN	2	South America	0.659	0.197	0.144	0.915	23671	measured
+PG	11781559	PGK	2	Melanesia	0.037	0.121	0.842	0.78	17057	measured
+PH	114123600	PHP	2	South-Eastern Asia	0.275	0.283	0.442	0.78	257220	measured
+PK	241499431	PKR	2	Southern Asia	0.203	0.192	0.605	0.78	354879	measured
+PL	37392000	PLN	2	Central Europe	0.292	0.312	0.396	0.793	119071	modelled
+PS	5483450	ILS	2	Western Asia	0.672	0.202	0.126	0.834	37192	measured
+PT	10749635	EUR	2	Southern Europe	0.375	0.332	0.293	0.764	17761	modelled
+PW	16733	USD	2	Micronesia	0	0.793	0.207	0.78	14188	measured
+PY	6109644	PYG	0	South America	0.416	0.288	0.296	0.915	43584949	measured
+QA	3173024	QAR	2	Western Asia	0.855	0.138	0.006	0.834	175298	measured
+RO	19036031	RON	2	Southeast Europe	0.312	0.236	0.452	0.666	110615	modelled
+RS	6567783	RSD	2	Southeast Europe	0.355	0.306	0.339	0.772	2165784	modelled
+RU	146028325	RUB	2	Eastern Europe	0.456	0.296	0.247	0.78	1057045	measured
+RW	14104969	RWF	0	Eastern Africa	0.048	0.261	0.691	0.78	620504	measured
+SA	35300280	SAR	2	Western Asia	0.675	0.171	0.154	0.834	89310	measured
+SB	750325	SBD	2	Melanesia	0.235	0.078	0.687	0.78	22359	measured
+SC	122729	SCR	2	Eastern Africa	0	0.455	0.545	0.78	157724	measured
+SD	51662000	SDG	2	Northern Africa	0.222	0.127	0.651	0.78	2008281	measured
+SE	10605098	SEK	2	Northern Europe	0.336	0.357	0.307	0.771	671742	modelled
+SG	6110200	SGD	2	South-Eastern Asia	1	0	0	0.78	82100	modelled
+SI	2130638	EUR	2	Central Europe	0.159	0.347	0.494	0.77	45198	modelled
+SK	5413813	EUR	2	Central Europe	0.151	0.39	0.459	0.88	30733	modelled
+SL	9077691	SLE	2	Western Africa	0.308	0.152	0.541	0.78	23851	measured
+SM	34132	EUR	2	Southern Europe	0	0.972	0.028	0.766	55149	measured
+SN	18593258	XOF	0	Western Africa	0.386	0.172	0.442	0.78	1219062	measured
+SO	19655000	SOS	2	Eastern Africa	0.431	0.12	0.449	0.78	21571402	measured
+SR	616500	SRD	2	South America	0.367	0.29	0.342	0.915	151199	measured
+SS	15786898	SSP	2	Middle Africa	0.11	0.107	0.783	0.78	0	measured
+ST	209607	STN	2	Middle Africa	0.522	0.17	0.308	0.78	67496	measured
+SV	6029976	USD	2	Central America	0.425	0.33	0.245	0.94	6721	measured
+SY	25620000	SYP	2	Western Asia	0.427	0.294	0.279	0.834	0	measured
+SZ	1235549	SZL	2	Southern Africa	0.051	0.216	0.733	0.78	64390	measured
+TD	19340757	XAF	0	Middle Africa	0.165	0.111	0.724	0.78	1117082	measured
+TG	8095498	XOF	0	Western Africa	0.288	0.156	0.556	0.78	854411	measured
+TH	65859640	THB	2	South-Eastern Asia	0.37	0.258	0.372	0.78	210649	measured
+TJ	10499000	TJS	2	Central Asia	0.097	0.165	0.738	0.78	12663	measured
+TL	1391221	USD	2	South-Eastern Asia	0.15	0.138	0.712	0.78	3676	measured
+TM	7057841	TMT	2	Central Asia	0.195	0.276	0.529	0.78	26594	measured
+TN	11972169	TND	3	Northern Africa	0.454	0.253	0.293	0.78	14334	measured
+TO	100179	TOP	2	Polynesia	0.099	0.113	0.788	0.78	21442	measured
+TR	85664944	TRY	2	Western Asia	0.693	0.202	0.105	0.863	487100	measured
+TT	1367764	TTD	2	Caribbean	0.291	0.248	0.46	0.78	98960	measured
+TV	10643	AUD	2	Polynesia	0	0.654	0.346	0.78	11096	measured
+TW	23317031	TWD	2	Eastern Asia	0.782	0.163	0.055	0.828	684006	modelled
+TZ	68153004	TZS	2	Eastern Africa	0.159	0.21	0.631	0.78	5486722	measured
+UA	32862000	UAH	2	Eastern Europe	0.421	0.275	0.304	0.78	163075	measured
+UG	45905417	UGX	0	Eastern Africa	0.069	0.251	0.681	0.78	4175396	measured
+US	340110988	USD	2	North America	0.428	0.374	0.198	0.799	70925	measured
+UY	3499451	UYU	2	South America	0.614	0.343	0.043	0.915	638363	measured
+UZ	37859698	UZS	2	Central Asia	0.251	0.26	0.49	0.78	36779937	measured
+VA	882	EUR	2	Southern Europe	1	0	0	0.766	0	modelled
+VC	110872	XCD	2	Caribbean	0	0.48	0.52	0.78	20981	measured
+VE	28517000	VES	2	South America	0.633	0.26	0.107	0.915	358699	measured
+VN	101343800	VND	0	South-Eastern Asia	0.177	0.211	0.612	0.78	126797330	measured
+VU	321409	VUV	0	Melanesia	0.143	0.08	0.777	0.78	685074	measured
+WS	205557	WST	2	Polynesia	0.047	0.129	0.825	0.78	20863	measured
+XK	1585566	EUR	2	Southeast Europe	0.313	0.274	0.412	0.772	9546	filled
+YE	32684503	YER	2	Western Asia	0.196	0.174	0.63	0.834	0	measured
+ZA	63100945	ZAR	2	Southern Africa	0.416	0.223	0.362	0.78	75061	measured
+ZM	19693423	ZMW	2	Eastern Africa	0.324	0.135	0.541	0.78	47849	measured
+ZW	17073087	ZWG	2	Southern Africa	0.266	0.139	0.595	0.78	75901	measured

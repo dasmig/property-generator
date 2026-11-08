@@ -1,0 +1,8 @@
+# odds of each dwelling type by household size (US ACS 2023 PUMS, BLD by NP), damped
+size	detached	semi_detached	flat_small	flat_large	informal	other
+1	0.8394	1.0342	1.2038	1.3615	1.0397	1.0397
+2	1.0336	0.988	0.9305	0.9167	0.9771	0.9771
+3	1.0521	1.0286	0.9422	0.7874	0.9744	0.9744
+4	1.0979	0.956	0.8331	0.6587	0.9494	0.9494
+5	1.1001	0.9369	0.8378	0.5895	1.052	1.052
+6	1.1033	0.9587	0.83	0.5405	1.0745	1.0745

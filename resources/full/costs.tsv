@@ -1,0 +1,798 @@
+# housing cost as a share of gross household income, lognormal by tenure at the country's reference_income, its log moved by slope_below or slope_above x ln(income / reference_income); see doc/data.md
+country_code	tenure	log_mean	log_sd	slope_below	slope_above	evidence	source
+AD	owner_outright	-2.9466	0.5613	-0.9365	-0.6092	filled	subregion mean of measured countries
+AD	owner_mortgage	-2.496	0.6014	-0.9785	-0.5059	filled	subregion mean of measured countries
+AD	tenant_market	-1.7028	0.3712	-0.6306	-0.6021	filled	subregion mean of measured countries
+AD	tenant_reduced	-2.6541	0.5686	-0.6306	-0.6021	filled	subregion mean of measured countries
+AE	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+AE	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+AE	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+AE	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+AF	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+AF	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+AF	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+AF	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+AG	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+AG	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+AG	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+AG	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+AL	owner_outright	-3.3212	0.5826	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AL	owner_mortgage	-2.087	0.5169	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AL	tenant_market	-1.7225	0.3681	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AL	tenant_reduced	-2.988	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AM	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+AM	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+AM	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+AM	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+AO	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+AO	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+AO	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+AO	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+AR	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+AR	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+AR	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+AR	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+AT	owner_outright	-3.0896	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AT	owner_mortgage	-3.0348	0.7499	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AT	tenant_market	-2.1511	0.4947	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AT	tenant_reduced	-2.448	0.4196	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+AU	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+AU	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+AU	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+AU	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+AZ	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+AZ	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+AZ	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+AZ	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+BA	owner_outright	-2.7505	0.5241	-0.9365	-0.6092	filled	subregion mean of measured countries
+BA	owner_mortgage	-2.1973	0.5926	-0.9785	-0.5059	filled	subregion mean of measured countries
+BA	tenant_market	-1.49	0.4378	-0.6306	-0.6021	filled	subregion mean of measured countries
+BA	tenant_reduced	-2.5171	0.5158	-0.6306	-0.6021	filled	subregion mean of measured countries
+BB	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+BB	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+BB	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+BB	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+BD	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+BD	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+BD	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+BD	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+BE	owner_outright	-3.1879	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+BE	owner_mortgage	-2.7885	0.5522	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+BE	tenant_market	-1.6403	0.2812	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+BE	tenant_reduced	-2.888	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+BF	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+BF	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+BF	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+BF	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+BG	owner_outright	-2.3304	0.4625	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.84)
+BG	owner_mortgage	-1.743	0.6274	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.84)
+BG	tenant_market	-1.6311	0.4091	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.84)
+BG	tenant_reduced	-2.1383	0.4064	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.84)
+BH	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+BH	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+BH	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+BH	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+BI	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+BI	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+BI	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+BI	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+BJ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+BJ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+BJ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+BJ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+BN	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+BN	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+BN	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+BN	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+BO	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+BO	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+BO	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+BO	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+BR	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+BR	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+BR	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+BR	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+BS	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+BS	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+BS	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+BS	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+BT	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+BT	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+BT	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+BT	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+BW	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+BW	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+BW	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+BW	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+BY	owner_outright	-2.9046	0.5708	-0.9365	-0.6092	filled	region mean of measured countries
+BY	owner_mortgage	-2.2821	0.5702	-0.9785	-0.5059	filled	region mean of measured countries
+BY	tenant_market	-1.7391	0.3688	-0.6306	-0.6021	filled	region mean of measured countries
+BY	tenant_reduced	-2.4226	0.4914	-0.6306	-0.6021	filled	region mean of measured countries
+BZ	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+BZ	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+BZ	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+BZ	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+CA	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	subregion mean of measured countries
+CA	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	subregion mean of measured countries
+CA	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	subregion mean of measured countries
+CA	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	subregion mean of measured countries
+CD	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+CD	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+CD	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+CD	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+CF	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+CF	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+CF	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+CF	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+CG	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+CG	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+CG	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+CG	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+CH	owner_outright	-2.5206	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.74)
+CH	owner_mortgage	-2.458	0.652	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.74)
+CH	tenant_market	-1.7038	0.3065	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.74)
+CH	tenant_reduced	-1.8404	0.3593	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.74)
+CI	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+CI	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+CI	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+CI	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+CL	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+CL	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+CL	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+CL	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+CM	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+CM	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+CM	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+CM	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+CN	owner_outright	-3.8423	0.5576	-0.9365	-0.6092	modelled	NBS China, 2020 census table 9-5 (median rent) over the 2020 urban median disposable income 2020; other tenures at the US's ratios to it
+CN	owner_mortgage	-2.9121	0.4488	-0.9785	-0.5059	modelled	NBS China, 2020 census table 9-5 (median rent) over the 2020 urban median disposable income 2020; other tenures at the US's ratios to it
+CN	tenant_market	-2.8809	0.4189	-0.6306	-0.6021	modelled	NBS China, 2020 census table 9-5 (median rent) over the 2020 urban median disposable income 2020; other tenures at the US's ratios to it
+CN	tenant_reduced	-3.5957	0.4734	-0.6306	-0.6021	modelled	NBS China, 2020 census table 9-5 (median rent) over the 2020 urban median disposable income 2020; other tenures at the US's ratios to it
+CO	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+CO	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+CO	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+CO	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+CR	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+CR	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+CR	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+CR	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+CU	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+CU	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+CU	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+CU	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+CV	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+CV	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+CV	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+CV	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+CY	owner_outright	-3.8825	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+CY	owner_mortgage	-2.3233	0.3681	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+CY	tenant_market	-2.2568	0.4199	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+CY	tenant_reduced	-3.2716	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+CZ	owner_outright	-2.2813	0.3939	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.87)
+CZ	owner_mortgage	-1.7077	0.3586	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.87)
+CZ	tenant_market	-1.4956	0.3155	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.87)
+CZ	tenant_reduced	-2.0615	0.3456	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.87)
+DE	owner_outright	-2.895	0.6462	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+DE	owner_mortgage	-1.8066	0.521	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+DE	tenant_market	-2.0072	0.3773	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+DE	tenant_reduced	-2.634	0.584	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+DJ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+DJ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+DJ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+DJ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+DK	owner_outright	-3.0005	0.5797	-0.9365	-0.6092	filled	subregion mean of measured countries
+DK	owner_mortgage	-2.3868	0.5714	-0.9785	-0.5059	filled	subregion mean of measured countries
+DK	tenant_market	-1.8337	0.4109	-0.6306	-0.6021	filled	subregion mean of measured countries
+DK	tenant_reduced	-2.3256	0.4619	-0.6306	-0.6021	filled	subregion mean of measured countries
+DM	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+DM	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+DM	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+DM	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+DO	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+DO	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+DO	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+DO	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+DZ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+DZ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+DZ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+DZ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+EC	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+EC	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+EC	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+EC	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+EE	owner_outright	-2.975	0.6809	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.83)
+EE	owner_mortgage	-2.2153	0.6367	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.83)
+EE	tenant_market	-1.4319	0.4227	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.83)
+EE	tenant_reduced	-2.3377	0.63	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.83)
+EG	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+EG	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+EG	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+EG	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+ER	owner_outright	-2.6276	0.9071	0	0	filled	world mean of measured countries
+ER	owner_mortgage	-2.1685	0.73	0	0	filled	world mean of measured countries
+ER	tenant_market	-1.4229	0.6534	0	0	filled	world mean of measured countries
+ER	tenant_reduced	-2.2289	0.8277	0	0	filled	world mean of measured countries
+ES	owner_outright	-2.9974	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+ES	owner_mortgage	-2.0934	0.5053	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+ES	tenant_market	-1.6127	0.3848	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+ES	tenant_reduced	-2.6057	0.6079	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+ET	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+ET	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+ET	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+ET	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+FI	owner_outright	-3.1627	0.5514	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+FI	owner_mortgage	-2.2895	0.4978	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+FI	tenant_market	-1.8608	0.3478	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+FI	tenant_reduced	-2.0019	0.3729	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+FJ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+FJ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+FJ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+FJ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+FM	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+FM	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+FM	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+FM	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+FR	owner_outright	-3.0496	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+FR	owner_mortgage	-2.3156	0.5053	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+FR	tenant_market	-1.6318	0.3326	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+FR	tenant_reduced	-1.8581	0.337	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+GA	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+GA	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+GA	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+GA	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+GB	owner_outright	-3.0005	0.5797	-0.9365	-0.6092	filled	subregion mean of measured countries
+GB	owner_mortgage	-2.3868	0.5714	-0.9785	-0.5059	filled	subregion mean of measured countries
+GB	tenant_market	-1.8337	0.4109	-0.6306	-0.6021	filled	subregion mean of measured countries
+GB	tenant_reduced	-2.3256	0.4619	-0.6306	-0.6021	filled	subregion mean of measured countries
+GD	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+GD	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+GD	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+GD	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+GE	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+GE	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+GE	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+GE	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+GH	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+GH	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+GH	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+GH	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+GM	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+GM	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+GM	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+GM	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+GN	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+GN	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+GN	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+GN	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+GQ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+GQ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+GQ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+GQ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+GR	owner_outright	-1.6202	0.332	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+GR	owner_mortgage	-1.3691	0.3806	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+GR	tenant_market	-1.6122	0.2989	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+GR	tenant_reduced	-1.5059	0.3158	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+GT	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+GT	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+GT	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+GT	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+GW	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+GW	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+GW	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+GW	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+GY	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+GY	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+GY	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+GY	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+HK	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+HK	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+HK	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+HK	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+HN	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+HN	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+HN	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+HN	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+HR	owner_outright	-2.8977	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+HR	owner_mortgage	-2.1428	0.5053	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+HR	tenant_market	-1.93	0.4107	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+HR	tenant_reduced	-2.8438	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.81)
+HT	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+HT	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+HT	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+HT	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+HU	owner_outright	-2.6754	0.4749	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+HU	owner_mortgage	-3.2076	0.7824	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+HU	tenant_market	-1.5102	0.31	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+HU	tenant_reduced	-2.2051	0.4491	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+ID	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+ID	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+ID	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+ID	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+IE	owner_outright	-3.3494	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+IE	owner_mortgage	-2.9532	0.5895	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+IE	tenant_market	-1.8463	0.4022	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+IE	tenant_reduced	-2.1388	0.3523	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+IL	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+IL	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+IL	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+IL	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+IN	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+IN	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+IN	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+IN	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+IQ	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+IQ	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+IQ	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+IQ	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+IR	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+IR	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+IR	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+IR	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+IS	owner_outright	-3.0005	0.5797	-0.9365	-0.6092	filled	subregion mean of measured countries
+IS	owner_mortgage	-2.3868	0.5714	-0.9785	-0.5059	filled	subregion mean of measured countries
+IS	tenant_market	-1.8337	0.4109	-0.6306	-0.6021	filled	subregion mean of measured countries
+IS	tenant_reduced	-2.3256	0.4619	-0.6306	-0.6021	filled	subregion mean of measured countries
+IT	owner_outright	-3.0532	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+IT	owner_mortgage	-3.0463	0.727	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+IT	tenant_market	-1.787	0.3716	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+IT	tenant_reduced	-2.8655	0.6037	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+JM	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+JM	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+JM	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+JM	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+JO	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+JO	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+JO	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+JO	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+JP	owner_outright	-2.7244	0.5576	-0.9365	-0.6092	modelled	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 tables 21-12 and 21-15: mean monthly rent over the median annual income of private tenants) 2023; other tenures at the US's ratios to it
+JP	owner_mortgage	-1.7942	0.4488	-0.9785	-0.5059	modelled	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 tables 21-12 and 21-15: mean monthly rent over the median annual income of private tenants) 2023; other tenures at the US's ratios to it
+JP	tenant_market	-1.763	0.4189	-0.6306	-0.6021	modelled	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 tables 21-12 and 21-15: mean monthly rent over the median annual income of private tenants) 2023; other tenures at the US's ratios to it
+JP	tenant_reduced	-2.4778	0.4734	-0.6306	-0.6021	modelled	Statistics Bureau of Japan, 2023 Housing and Land Survey (Japan Statistical Yearbook 2026 tables 21-12 and 21-15: mean monthly rent over the median annual income of private tenants) 2023; other tenures at the US's ratios to it
+KE	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+KE	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+KE	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+KE	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+KG	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+KG	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+KG	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+KG	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+KH	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+KH	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+KH	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+KH	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+KI	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+KI	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+KI	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+KI	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+KM	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+KM	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+KM	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+KM	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+KN	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+KN	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+KN	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+KN	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+KP	owner_outright	-3.3021	0.93	0	0	filled	region mean of measured countries
+KP	owner_mortgage	-2.9438	0.9349	0	0	filled	region mean of measured countries
+KP	tenant_market	-1.3118	0.5956	0	0	filled	region mean of measured countries
+KP	tenant_reduced	-3.1369	0.92	0	0	filled	region mean of measured countries
+KR	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+KR	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+KR	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+KR	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+KW	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+KW	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+KW	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+KW	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+KZ	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+KZ	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+KZ	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+KZ	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+LA	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+LA	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+LA	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+LA	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+LB	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+LB	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+LB	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+LB	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+LC	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+LC	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+LC	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+LC	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+LI	owner_outright	-2.9579	0.6097	-0.9365	-0.6092	filled	subregion mean of measured countries
+LI	owner_mortgage	-2.1419	0.5222	-0.9785	-0.5059	filled	subregion mean of measured countries
+LI	tenant_market	-1.7857	0.3476	-0.6306	-0.6021	filled	subregion mean of measured countries
+LI	tenant_reduced	-2.2623	0.4578	-0.6306	-0.6021	filled	subregion mean of measured countries
+LK	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+LK	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+LK	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+LK	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+LR	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+LR	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+LR	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+LR	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+LS	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+LS	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+LS	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+LS	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+LT	owner_outright	-2.7655	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.72)
+LT	owner_mortgage	-2.9776	0.798	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.72)
+LT	tenant_market	-2.0377	0.6332	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.72)
+LT	tenant_reduced	-2.4653	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.72)
+LU	owner_outright	-3.281	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+LU	owner_mortgage	-2.3469	0.5025	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+LU	tenant_market	-1.7015	0.3201	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+LU	tenant_reduced	-2.1142	0.3828	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+LV	owner_outright	-2.6813	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.82)
+LV	owner_mortgage	-2.2404	0.5424	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.82)
+LV	tenant_market	-1.9747	0.4882	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.82)
+LV	tenant_reduced	-2.3383	0.4368	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.82)
+LY	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+LY	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+LY	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+LY	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MA	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+MA	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+MA	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+MA	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MC	owner_outright	-2.9579	0.6097	-0.9365	-0.6092	filled	subregion mean of measured countries
+MC	owner_mortgage	-2.1419	0.5222	-0.9785	-0.5059	filled	subregion mean of measured countries
+MC	tenant_market	-1.7857	0.3476	-0.6306	-0.6021	filled	subregion mean of measured countries
+MC	tenant_reduced	-2.2623	0.4578	-0.6306	-0.6021	filled	subregion mean of measured countries
+MD	owner_outright	-2.9046	0.5708	-0.9365	-0.6092	filled	region mean of measured countries
+MD	owner_mortgage	-2.2821	0.5702	-0.9785	-0.5059	filled	region mean of measured countries
+MD	tenant_market	-1.7391	0.3688	-0.6306	-0.6021	filled	region mean of measured countries
+MD	tenant_reduced	-2.4226	0.4914	-0.6306	-0.6021	filled	region mean of measured countries
+ME	owner_outright	-2.5106	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+ME	owner_mortgage	-1.8097	0.5165	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+ME	tenant_market	-1.5809	0.3408	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+ME	tenant_reduced	-2.4057	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+MG	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+MG	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+MG	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+MG	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MH	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+MH	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+MH	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+MH	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MK	owner_outright	-2.9319	0.6699	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+MK	owner_mortgage	-2.9137	0.5053	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+MK	tenant_market	-1.8149	0.4199	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+MK	tenant_reduced	-2.4599	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2024 (disposable income, turned gross with 0.77)
+ML	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+ML	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+ML	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+ML	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MM	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+MM	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+MM	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+MM	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+MN	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+MN	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+MN	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+MN	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+MO	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+MO	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+MO	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+MO	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+MR	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+MR	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+MR	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+MR	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MT	owner_outright	-3.252	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+MT	owner_mortgage	-2.8436	0.6931	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+MT	tenant_market	-1.8924	0.488	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+MT	tenant_reduced	-2.8282	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+MU	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+MU	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+MU	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+MU	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MV	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+MV	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+MV	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+MV	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+MW	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+MW	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+MW	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+MW	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+MX	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	subregion mean of measured countries
+MX	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	subregion mean of measured countries
+MX	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	subregion mean of measured countries
+MX	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	subregion mean of measured countries
+MY	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+MY	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+MY	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+MY	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+MZ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+MZ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+MZ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+MZ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+NA	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+NA	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+NA	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+NA	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+NE	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+NE	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+NE	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+NE	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+NG	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+NG	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+NG	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+NG	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+NI	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+NI	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+NI	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+NI	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+NL	owner_outright	-2.9684	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+NL	owner_mortgage	-2.4628	0.5053	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+NL	tenant_market	-1.4674	0.3304	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+NL	tenant_reduced	-1.838	0.3143	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.73)
+NO	owner_outright	-2.729	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+NO	owner_mortgage	-1.718	0.5046	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+NO	tenant_market	-1.7408	0.3401	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+NO	tenant_reduced	-2.7546	0.5829	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.75)
+NP	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+NP	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+NP	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+NP	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+NR	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+NR	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+NR	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+NR	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+NZ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+NZ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+NZ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+NZ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+OM	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+OM	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+OM	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+OM	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+PA	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+PA	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+PA	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+PA	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+PE	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+PE	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+PE	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+PE	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+PG	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+PG	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+PG	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+PG	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+PH	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+PH	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+PH	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+PH	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+PK	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+PK	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+PK	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+PK	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+PL	owner_outright	-2.8228	0.559	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+PL	owner_mortgage	-2.0791	0.6533	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+PL	tenant_market	-1.8817	0.3643	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+PL	tenant_reduced	-2.5499	0.4721	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.79)
+PS	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+PS	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+PS	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+PS	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+PT	owner_outright	-3.2705	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.76)
+PT	owner_mortgage	-2.4206	0.5933	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.76)
+PT	tenant_market	-1.6576	0.3632	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.76)
+PT	tenant_reduced	-2.7365	0.4458	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.76)
+PW	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+PW	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+PW	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+PW	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+PY	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+PY	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+PY	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+PY	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+QA	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+QA	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+QA	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+QA	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+RO	owner_outright	-2.9028	0.5211	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.67)
+RO	owner_mortgage	-2.398	0.6652	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.67)
+RO	tenant_market	-1.2835	0.5043	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.67)
+RO	tenant_reduced	-2.5932	0.5585	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.67)
+RS	owner_outright	-2.401	0.4929	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+RS	owner_mortgage	-1.9704	0.4585	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+RS	tenant_market	-1.5089	0.3283	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+RS	tenant_reduced	-2.3323	0.4618	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+RU	owner_outright	-2.9046	0.5708	-0.9365	-0.6092	filled	region mean of measured countries
+RU	owner_mortgage	-2.2821	0.5702	-0.9785	-0.5059	filled	region mean of measured countries
+RU	tenant_market	-1.7391	0.3688	-0.6306	-0.6021	filled	region mean of measured countries
+RU	tenant_reduced	-2.4226	0.4914	-0.6306	-0.6021	filled	region mean of measured countries
+RW	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+RW	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+RW	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+RW	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SA	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	subregion mean of measured countries
+SA	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	subregion mean of measured countries
+SA	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	subregion mean of measured countries
+SA	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	subregion mean of measured countries
+SB	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+SB	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+SB	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+SB	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SC	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+SC	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+SC	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+SC	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SD	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+SD	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+SD	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+SD	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SE	owner_outright	-3.0005	0.5797	-0.9365	-0.6092	filled	subregion mean of measured countries
+SE	owner_mortgage	-2.3868	0.5714	-0.9785	-0.5059	filled	subregion mean of measured countries
+SE	tenant_market	-1.8337	0.4109	-0.6306	-0.6021	filled	subregion mean of measured countries
+SE	tenant_reduced	-2.3256	0.4619	-0.6306	-0.6021	filled	subregion mean of measured countries
+SG	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+SG	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+SG	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+SG	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+SI	owner_outright	-3.1171	0.5333	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+SI	owner_mortgage	-2.9183	0.6933	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+SI	tenant_market	-1.8373	0.3835	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+SI	tenant_reduced	-2.622	0.4398	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.77)
+SK	owner_outright	-2.603	0.3558	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.88)
+SK	owner_mortgage	-1.5939	0.4438	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.88)
+SK	tenant_market	-1.6344	0.3791	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.88)
+SK	tenant_reduced	-2.2231	0.3745	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.88)
+SL	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+SL	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+SL	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+SL	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SM	owner_outright	-2.9466	0.5613	-0.9365	-0.6092	filled	subregion mean of measured countries
+SM	owner_mortgage	-2.496	0.6014	-0.9785	-0.5059	filled	subregion mean of measured countries
+SM	tenant_market	-1.7028	0.3712	-0.6306	-0.6021	filled	subregion mean of measured countries
+SM	tenant_reduced	-2.6541	0.5686	-0.6306	-0.6021	filled	subregion mean of measured countries
+SN	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+SN	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+SN	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+SN	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SO	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+SO	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+SO	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+SO	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SR	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+SR	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+SR	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+SR	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+SS	owner_outright	-2.6276	0.9071	0	0	filled	world mean of measured countries
+SS	owner_mortgage	-2.1685	0.73	0	0	filled	world mean of measured countries
+SS	tenant_market	-1.4229	0.6534	0	0	filled	world mean of measured countries
+SS	tenant_reduced	-2.2289	0.8277	0	0	filled	world mean of measured countries
+ST	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+ST	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+ST	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+ST	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+SV	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+SV	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+SV	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+SV	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+SY	owner_outright	-3.3021	0.93	0	0	filled	subregion mean of measured countries
+SY	owner_mortgage	-2.9438	0.9349	0	0	filled	subregion mean of measured countries
+SY	tenant_market	-1.3118	0.5956	0	0	filled	subregion mean of measured countries
+SY	tenant_reduced	-3.1369	0.92	0	0	filled	subregion mean of measured countries
+SZ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+SZ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+SZ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+SZ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+TD	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+TD	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+TD	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+TD	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+TG	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+TG	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+TG	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+TG	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+TH	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+TH	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+TH	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+TH	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+TJ	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+TJ	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+TJ	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+TJ	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+TL	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+TL	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+TL	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+TL	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+TM	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+TM	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+TM	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+TM	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+TN	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+TN	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+TN	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+TN	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+TO	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+TO	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+TO	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+TO	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+TR	owner_outright	-3.3935	0.581	-0.9365	-0.6092	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+TR	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+TR	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+TR	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	measured	Eurostat EU-SILC ilc_lvho28 2025 (disposable income, turned gross with 0.86)
+TT	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+TT	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+TT	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+TT	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+TV	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+TV	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+TV	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+TV	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+TW	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+TW	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+TW	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+TW	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+TZ	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+TZ	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+TZ	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+TZ	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+UA	owner_outright	-2.9046	0.5708	-0.9365	-0.6092	filled	region mean of measured countries
+UA	owner_mortgage	-2.2821	0.5702	-0.9785	-0.5059	filled	region mean of measured countries
+UA	tenant_market	-1.7391	0.3688	-0.6306	-0.6021	filled	region mean of measured countries
+UA	tenant_reduced	-2.4226	0.4914	-0.6306	-0.6021	filled	region mean of measured countries
+UG	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+UG	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+UG	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+UG	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+US	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	measured	US Census Bureau ACS 2023 PUMS (GRPIP, OCPIP; gross income)
+US	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	measured	US Census Bureau ACS 2023 PUMS (GRPIP, OCPIP; gross income)
+US	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	measured	US Census Bureau ACS 2023 PUMS (GRPIP, OCPIP; gross income)
+US	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	measured	US Census Bureau ACS 2023 PUMS (GRPIP, OCPIP; gross income)
+UY	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+UY	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+UY	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+UY	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+UZ	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+UZ	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+UZ	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+UZ	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+VA	owner_outright	-2.8551	0.8985	0	0	filled	subregion mean of measured countries
+VA	owner_mortgage	-2.688	0.8211	0	0	filled	subregion mean of measured countries
+VA	tenant_market	-1.5694	0.6276	0	0	filled	subregion mean of measured countries
+VA	tenant_reduced	-2.5208	0.9614	0	0	filled	subregion mean of measured countries
+VC	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+VC	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+VC	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+VC	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+VE	owner_outright	-2.2988	0.5576	-0.9365	-0.6092	filled	region mean of measured countries
+VE	owner_mortgage	-1.3686	0.4488	-0.9785	-0.5059	filled	region mean of measured countries
+VE	tenant_market	-1.3373	0.4189	-0.6306	-0.6021	filled	region mean of measured countries
+VE	tenant_reduced	-2.0521	0.4734	-0.6306	-0.6021	filled	region mean of measured countries
+VN	owner_outright	-3.3935	0.581	-0.9365	-0.6092	filled	region mean of measured countries
+VN	owner_mortgage	-2.7517	0.6847	-0.9785	-0.5059	filled	region mean of measured countries
+VN	tenant_market	-1.4452	0.3523	-0.6306	-0.6021	filled	region mean of measured countries
+VN	tenant_reduced	-3.2703	0.5442	-0.6306	-0.6021	filled	region mean of measured countries
+VU	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+VU	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+VU	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+VU	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+WS	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+WS	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+WS	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+WS	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+XK	owner_outright	-2.7505	0.5241	-0.9365	-0.6092	filled	subregion mean of measured countries
+XK	owner_mortgage	-2.1973	0.5926	-0.9785	-0.5059	filled	subregion mean of measured countries
+XK	tenant_market	-1.49	0.4378	-0.6306	-0.6021	filled	subregion mean of measured countries
+XK	tenant_reduced	-2.5171	0.5158	-0.6306	-0.6021	filled	subregion mean of measured countries
+YE	owner_outright	-3.3021	0.93	0	0	filled	subregion mean of measured countries
+YE	owner_mortgage	-2.9438	0.9349	0	0	filled	subregion mean of measured countries
+YE	tenant_market	-1.3118	0.5956	0	0	filled	subregion mean of measured countries
+YE	tenant_reduced	-3.1369	0.92	0	0	filled	subregion mean of measured countries
+ZA	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+ZA	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+ZA	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+ZA	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+ZM	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+ZM	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+ZM	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+ZM	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries
+ZW	owner_outright	-2.7191	0.5667	-0.9365	-0.6092	filled	world mean of measured countries
+ZW	owner_mortgage	-1.9764	0.5346	-0.9785	-0.5059	filled	world mean of measured countries
+ZW	tenant_market	-1.5562	0.3865	-0.6306	-0.6021	filled	world mean of measured countries
+ZW	tenant_reduced	-2.3623	0.4896	-0.6306	-0.6021	filled	world mean of measured countries

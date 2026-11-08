@@ -1,0 +1,21 @@
+# odds of each tenure by age band (US ACS PUMS householders), household type (EU-SILC ilc_lvho02) and dwelling type (US ACS PUMS), damped
+dimension	value	owner_outright	owner_mortgage	tenant_market	tenant_reduced
+age	16-24	0.2704	0.3616	2.0549	1.4338
+age	25-34	0.3596	0.8924	1.5471	0.9892
+age	35-44	0.5286	1.1985	1.1065	0.9147
+age	45-54	0.7554	1.2443	0.8911	0.8844
+age	55-64	1.1538	1.1047	0.7453	0.9337
+age	65-120	1.6804	0.7817	0.6564	1.1059
+household	one_person	1.0088	0.6332	1.1628	1.2617
+household	couple	1.1371	0.7854	0.9365	0.9135
+household	nuclear	0.809	1.3157	1.0196	0.9767
+household	single_parent	0.7466	0.9941	1.3189	1.37
+household	with_parents	1.1508	0.77	0.7433	0.7453
+household	multi_generation	1.0199	0.9253	0.7747	0.7956
+household	other	1	1	1	1
+type	detached	1.1174	1.1697	0.6053	1.0035
+type	semi_detached	0.9363	1.0347	1.0097	0.9312
+type	flat_small	0.4959	0.4869	1.5837	0.9149
+type	flat_large	0.4753	0.4024	1.62	0.7787
+type	informal	1.4199	0.1473	0.819	1.5909
+type	other	1.4199	0.7363	0.819	1.5909
