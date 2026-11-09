@@ -71,6 +71,7 @@ def read_ahs():
     rooms_by = defaultdict(lambda: defaultdict(float))     # (group, size) -> rooms -> weight
     bed_by_rooms = defaultdict(lambda: defaultdict(float))  # rooms -> bedrooms -> weight
     area = defaultdict(list)                                # group -> (weight, m2 per room)
+    sized = defaultdict(list)                               # group -> (weight, rooms, log lo, log hi) of the band
     metro = defaultdict(lambda: defaultdict(float))         # metro? -> type -> weight
     with z.open("household.csv") as raw:
         reader = csv.DictReader(io.TextIOWrapper(raw, encoding="utf-8"))
@@ -94,9 +95,28 @@ def read_ahs():
                 # The band's geometric middle (the first band's middle is taken at 350 sq ft).
                 mid = math.sqrt(max(lo, 200) * hi)
                 area[g].append((w, mid * SQFT_TO_M2 / rooms))
+                sized[g].append((w, rr, math.log(max(lo, 200) * SQFT_TO_M2), math.log(hi * SQFT_TO_M2)))
             cbsa = r["OMB13CBSA"].strip("'")
             metro["metro" if cbsa and cbsa != "99999" else "nonmetro"][t] += w
-    return rooms_by, bed_by_rooms, area, metro
+    return rooms_by, bed_by_rooms, area, metro, sized
+
+
+def area_on_rooms(rows):
+    """Floor area against rooms: the weighted least-squares line of the bands' log middles on log
+    rooms. Returns the power (the slope: 0.8 for flats, whose rooms get smaller as they multiply;
+    1.2 for houses), the log area of one room (the intercept) and the spread left around the line,
+    which counts the variance inside a band too (uniform in log, width squared over 12)."""
+    total = sum(w for w, _, _, _ in rows)
+    pts = [(w, math.log(r), (lo + hi) / 2) for w, r, lo, hi in rows]
+    mx = sum(w * x for w, x, _ in pts) / total
+    my = sum(w * y for w, _, y in pts) / total
+    sxx = sum(w * (x - mx) ** 2 for w, x, _ in pts) / total
+    power = sum(w * (x - mx) * (y - my) for w, x, y in pts) / total / sxx
+    resid = sum(w * (y - my - power * (x - mx)) ** 2 for w, x, y in pts) / total
+    within_band = sum(w * (hi - lo) ** 2 / 12 for w, _, lo, hi in rows) / total
+    spread = sum(w * (y - my) ** 2 for w, _, y in pts) / total
+    return {"power": power, "log_one_room": my - power * mx, "log_sd": math.sqrt(resid + within_band),
+            "log_mean_area": my, "log_sd_area": math.sqrt(spread + within_band)}
 
 
 def pums_tenure(ten):
@@ -235,7 +255,7 @@ def burden_model(records, knot):
 
 
 def main():
-    rooms_by, bed_by_rooms, area, metro = read_ahs()
+    rooms_by, bed_by_rooms, area, metro, sized = read_ahs()
     print("AHS read")
     type_size, type_tenure, age_tenure, tenure, types, years, burden = read_pums()
     print("PUMS read")
@@ -251,6 +271,7 @@ def main():
                             "log_sd": math.sqrt(sum(w * math.log(x) ** 2 for w, x in v) / sum(w for w, _ in v)
                                                 - (sum(w * math.log(x) for w, x in v) / sum(w for w, _ in v)) ** 2)}
                         for g, v in area.items()},
+        "m2_on_rooms": {g: area_on_rooms(v) for g, v in sized.items()},
         "type_by_metro": {k: shares(v) for k, v in metro.items()},
         "type_given_size": {str(s): shares(d) for s, d in sorted(type_size.items())},
         "tenure_given_type": {t: shares(d) for t, d in type_tenure.items()},
@@ -267,6 +288,7 @@ def main():
     print("types", {k: round(v, 3) for k, v in out["types"].items()})
     print("tenure", {k: round(v, 3) for k, v in out["tenure"].items()})
     print("m2/room", {g: round(v["median"], 1) for g, v in out["m2_per_room"].items()})
+    print("m2 on rooms", {g: {k: round(x, 3) for k, x in v.items()} for g, v in out["m2_on_rooms"].items()})
     print("burden", {t: [round(x, 3) for x in v["q"]] for t, v in out["burden"].items()})
 
 

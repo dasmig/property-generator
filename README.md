@@ -14,11 +14,11 @@
 A household's home in any of 199 countries: the dwelling type, whether it is owned or rented, the rooms and bedrooms, the floor area, the year it was built and what it costs each month. Each field fits the country, the area, the household and the ones drawn before it.
 
 ```
-DE, city, flat in a large building, tenant at market rent, 1 room (studio), 35 m², built 1972, 717.49 EUR a month
-US, town, detached house, owner with a mortgage, 5 rooms (2 bedrooms), 131 m², built 1994, 1324.45 USD a month
-JP, city, flat in a large building, tenant at market rent, 3 rooms (1 bedroom), 63 m², built 1996, 80204 JPY a month
-BR, city, detached house, owner with a mortgage, 5 rooms (3 bedrooms), 207 m², built 1958, 686.55 BRL a month
-IN, rural, detached house, owner without a mortgage, 3 rooms (1 bedroom), 69 m², built 1969, 470.50 INR a month
+DE, city, flat in a large building, tenant at market rent, 1 room (studio), 38 m², built 1972, 717.49 EUR a month
+US, town, detached house, owner with a mortgage, 5 rooms (2 bedrooms), 126 m², built 1994, 1324.45 USD a month
+JP, city, flat in a large building, tenant at market rent, 2 rooms (no bedroom), 49 m², built 1996, 80204 JPY a month
+BR, city, detached house, owner with a mortgage, 4 rooms (2 bedrooms), 126 m², built 1958, 686.55 BRL a month
+IN, rural, detached house, owner without a mortgage, 3 rooms (1 bedroom), 54 m², built 1969, 470.50 INR a month
 ```
 
 These homes are drawn for households with gross incomes of 52,000 EUR, 78,000 USD, 5,200,000 JPY, 60,000 BRL and 420,000 INR a year.
@@ -78,7 +78,7 @@ request.country = "DE";
 request.household_income = dasmig::core::money::from_major(52'000, "EUR", 2);
 
 auto v = gen.get_property(request);
-std::cout << v << '\n';           // DE, city, flat in a large building, tenant at market rent, 1 room (studio), 35 m², ...
+std::cout << v << '\n';           // DE, city, flat in a large building, tenant at market rent, 1 room (studio), 38 m², ...
 std::cout << v.to_json() << '\n'; // {"country_code":"DE","area":"city",...,"monthly_cost":{"amount":717.49,"currency":"EUR"},...}
 
 // The same seed gives the same result everywhere.

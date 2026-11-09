@@ -111,13 +111,19 @@ def check_tier(tier):
     for r in tables["dwellings"]:
         cc, g = r["country_code"], r["group"]
         seen[cc].add(g)
-        per_room = math.exp(float(r["m2_log_mean"]))
-        if not 5 <= per_room <= 60:
-            fail(tier, "dwellings.tsv", f"{cc} {g}: {per_room:.1f} m² a room")
+        # The median area of a three-room home: m2_log_mean is the log area at one room, and area grows
+        # as rooms^m2_rooms_power.
+        three = math.exp(float(r["m2_log_mean"]) + float(r["m2_rooms_power"]) * math.log(3))
+        if not 20 <= three <= 250:
+            fail(tier, "dwellings.tsv", f"{cc} {g}: {three:.1f} m² for three rooms")
         if not 0.1 <= float(r["m2_log_sd"]) <= 1.0:
             fail(tier, "dwellings.tsv", f"{cc} {g}: m2_log_sd {r['m2_log_sd']}")
         if not -6 <= float(r["rooms_tilt"]) <= 2:
             fail(tier, "dwellings.tsv", f"{cc} {g}: rooms_tilt {r['rooms_tilt']}")
+        if not -3 <= float(r["rooms_shift"]) <= 6:
+            fail(tier, "dwellings.tsv", f"{cc} {g}: rooms_shift {r['rooms_shift']}")
+        if not 0.5 <= float(r["m2_rooms_power"]) <= 1.5:
+            fail(tier, "dwellings.tsv", f"{cc} {g}: m2_rooms_power {r['m2_rooms_power']}")
     for cc in countries:
         if seen[cc] != set(GROUPS):
             fail(tier, "dwellings.tsv", f"{cc}: groups {sorted(seen[cc])}")

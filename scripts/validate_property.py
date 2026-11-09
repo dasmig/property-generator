@@ -5,7 +5,10 @@ Builds scripts/sample_property.cpp, draws --count homes per country from a tier 
 - dwelling types with types.tsv over the country's areas (checks the sampling and the size odds' fit);
 - tenure with the source's shares before calibration (checks the calibration);
 - mean rooms with the source's mean or distribution (+1 room where the source leaves the kitchen out);
+- the rooms shares with a distribution for all dwellings (the largest gap in a category);
 - mean floor area with the source's mean per dwelling;
+- the mean and spread of log floor area by building group with the census's fit, where there is one
+  (the spread capped at the US microdata's, as prepare_tables.py caps it);
 - mean year built with periods.tsv; median burden per tenure, at the country's reference income, with
   costs.tsv (as a multiple of the allowed sampling error, so 1.0 is the limit);
 - and the US's joint structure and burden by income against the microdata (check_joint).
@@ -53,6 +56,16 @@ def rooms_target(cc):
     return None, None
 
 
+def rooms_shares(cc):
+    """The source's rooms shares for all dwellings, keyed as the sample's categories, or None."""
+    rd = P.M[cc].get("rooms_dist", {})
+    if "house" in rd or "all" not in rd or rd["all"].get("definition") == "no_kitchen":
+        return None
+    shares = rd["all"]["shares"]
+    total = sum(shares.values())
+    return {k: v / total for k, v in shares.items()}
+
+
 def floor_target(cc):
     """The source's mean floor area per dwelling where the fit used it (not Europe's census bands)."""
     m = P.M[cc]
@@ -84,7 +97,8 @@ def main():
         periods.setdefault(r["country_code"], []).append((int(r["from"]), int(r["to"]), float(r["share"])))
     margins = P.tenures()
 
-    checks = {"type": [], "tenure": [], "rooms": [], "floor": [], "year": [], "burden": []}
+    checks = {"type": [], "tenure": [], "rooms": [], "rooms_shares": [], "floor": [], "floor_log": [], "floor_sd": [], "year": [],
+              "burden": []}
     for cc, s in sample.items():
         c = countries[cc]
         nat = {k: sum(float(c[a]) * float(types[(cc, a)][k]) for a in AREAS) for k in TYPES}
@@ -94,9 +108,22 @@ def main():
         target, how = rooms_target(cc)
         if target:
             checks["rooms"].append((cc, abs(s["rooms_mean"] / target - 1), f"{s['rooms_mean']:.2f} vs {target:.2f} ({how})"))
+        shares = rooms_shares(cc)
+        if shares:
+            drawn = [s[f"r{r}"] for r in range(1, 11)]
+            gaps = {k: abs(P.to_categories(drawn, [k])[k] - v) for k, v in shares.items()}
+            worst = max(gaps, key=gaps.get)
+            checks["rooms_shares"].append((cc, gaps[worst], f"{worst} rooms: {P.to_categories(drawn, [worst])[worst]:.2f} vs {shares[worst]:.2f}"))
         ft = floor_target(cc)
         if ft:
             checks["floor"].append((cc, abs(s["floor_mean"] / ft - 1), f"{s['floor_mean']:.0f} vs {ft:.0f} m²"))
+        fd = P.M[cc].get("floor_dist", {})
+        for g in ("house", "flat"):
+            if g in fd and s[f"lf_{g}_n"] >= 500:
+                mean, sd = s[f"lf_{g}_mean"], s[f"lf_{g}_sd"]
+                checks["floor_log"].append((f"{cc} {g}", abs(mean - fd[g]["log_mean"]), f"{mean:.2f} vs {fd[g]['log_mean']:.2f}"))
+                target = min(fd[g]["log_sd"], P.US["m2_on_rooms"][g]["log_sd_area"])
+                checks["floor_sd"].append((f"{cc} {g}", abs(sd - target), f"{sd:.2f} vs {target:.2f}"))
         bands = periods[cc]
         total = sum(sh for lo, hi, sh in bands if lo <= P.REFERENCE_YEAR)
         year = sum(sh * (lo + min(hi, P.REFERENCE_YEAR)) / 2 for lo, hi, sh in bands if lo <= P.REFERENCE_YEAR) / total
@@ -111,8 +138,10 @@ def main():
         checks["burden"].append((cc, worst))
 
     # Tolerances: sampling error at 20,000 draws, plus the model's stated approximations.
-    tolerance = {"type": 0.015, "tenure": 0.03, "rooms": 0.10, "floor": 0.15, "year": 1.5, "burden": 1.0}
-    allowed = {"type": 0.0, "tenure": 0.05, "rooms": 0.2, "floor": 0.25, "year": 0.0, "burden": 0.0}
+    tolerance = {"type": 0.015, "tenure": 0.03, "rooms": 0.10, "rooms_shares": 0.10, "floor": 0.15, "floor_log": 0.05, "floor_sd": 0.10,
+                 "year": 1.5, "burden": 1.0}
+    allowed = {"type": 0.0, "tenure": 0.05, "rooms": 0.2, "rooms_shares": 0.2, "floor": 0.25, "floor_log": 0.0, "floor_sd": 0.2, "year": 0.0,
+               "burden": 0.0}
     failed = False
     for name, rows in checks.items():
         bad = [r for r in rows if r[1] > tolerance[name]]

@@ -444,8 +444,10 @@ struct country_model
     tenure_vec tenure_all{};
     std::array<std::optional<tenure_vec>, household_type_count> tenure_by_household{};
     std::array<double, group_count> rooms_tilt{};
+    std::array<double, group_count> rooms_shift{}; // the base moved down this many rooms, then tilted; 0 by default
     std::array<double, group_count> m2_log_mean{};
     std::array<double, group_count> m2_log_sd{};
+    std::array<double, group_count> m2_rooms_power{1.0, 1.0, 1.0}; // floor area grows as rooms^power
     std::array<std::array<room_vec, max_size>, group_count> rooms{}; // P(rooms | group, size), tilted
     std::vector<band> periods;                                       // sorted by `from`
     tenure_vec cost_log_mean{};
@@ -900,7 +902,7 @@ class pty
         case table::dwellings:
             return {.key = {"country_code", "group"},
                     .required = {"rooms_tilt", "m2_log_mean", "m2_log_sd"},
-                    .optional = {"rooms_evidence", "area_evidence", "rooms_source", "area_source"}};
+                    .optional = {"rooms_shift", "m2_rooms_power", "rooms_evidence", "area_evidence", "rooms_source", "area_source"}};
         case table::periods:
             return {.key = {"country_code", "from"}, .required = {"to", "share"}, .optional = {"evidence", "source"}};
         case table::costs:
@@ -1083,8 +1085,18 @@ class pty
         case table::dwellings:
             (void)key_index_(row, "group", d::group_keys);
             finite_(row, "rooms_tilt");
+            if (row.has("rooms_shift"))
+            {
+                const auto shift = row.get<double>("rooms_shift");
+                if (!(shift >= -9.0 && shift <= 9.0)) throw row.error("rooms_shift", "must be -9 to 9");
+            }
             finite_(row, "m2_log_mean");
             (void)share_(row, "m2_log_sd");
+            if (row.has("m2_rooms_power"))
+            {
+                const auto power = row.get<double>("m2_rooms_power");
+                if (!(power >= 0.25 && power <= 2.0)) throw row.error("m2_rooms_power", "must be 0.25 to 2");
+            }
             check_evidence_(row, "rooms_evidence");
             check_evidence_(row, "area_evidence");
             return;
@@ -1230,8 +1242,10 @@ class pty
             auto& c = country_of_(by_code, row, "dwellings.tsv");
             const auto g = *d::index_of(d::group_keys, row["group"]);
             c.rooms_tilt.at(g) = row.get<double>("rooms_tilt");
+            c.rooms_shift.at(g) = row.has("rooms_shift") ? row.get<double>("rooms_shift") : 0.0;
             c.m2_log_mean.at(g) = row.get<double>("m2_log_mean");
             c.m2_log_sd.at(g) = row.get<double>("m2_log_sd");
+            c.m2_rooms_power.at(g) = row.has("m2_rooms_power") ? row.get<double>("m2_rooms_power") : 1.0;
             d::weaken(c.evidence.rooms, d::row_evidence(row, "rooms_evidence"));
             d::weaken(c.evidence.floor_area, d::row_evidence(row, "area_evidence"));
             c.groups |= 1U << g;
@@ -1388,13 +1402,33 @@ class pty
         {
             for (std::size_t s = 0; s < d::max_size; ++s)
             {
-                const auto& b = *base.at(g).at(s);
+                const auto& b = c.rooms_shift.at(g) == 0.0 ? *base.at(g).at(s) : shifted_(*base.at(g).at(s), c.rooms_shift.at(g));
                 for (std::size_t r = 0; r < d::max_rooms; ++r)
                 {
                     c.rooms.at(g).at(s).at(r) = b.at(r) * core::math::exp(c.rooms_tilt.at(g) * static_cast<double>(r + 1));
                 }
             }
         }
+    }
+
+    // The base moved down `shift` rooms (negative: up), between whole rooms by linear interpolation;
+    // what would fall below one room is one room, above the last the last. As scripts/prepare_tables.py
+    // shifted().
+    static propertygen_detail::room_vec shifted_(const propertygen_detail::room_vec& base, double shift)
+    {
+        namespace d = propertygen_detail;
+        const double lo = std::floor(shift);
+        const double frac = shift - lo;
+        const auto whole = static_cast<std::ptrdiff_t>(lo);
+        const auto last = static_cast<std::ptrdiff_t>(d::max_rooms) - 1;
+        d::room_vec out{};
+        for (std::ptrdiff_t r = 0; r <= last; ++r)
+        {
+            const double p = base.at(static_cast<std::size_t>(r));
+            out.at(static_cast<std::size_t>(std::clamp(r - whole, std::ptrdiff_t{0}, last))) += p * (1.0 - frac);
+            out.at(static_cast<std::size_t>(std::clamp(r - whole - 1, std::ptrdiff_t{0}, last))) += p * frac;
+        }
+        return out;
     }
 
     // Per-type factors so that drawing P(type | size) proportional to shares x odds(size) x f over the
@@ -1588,7 +1622,8 @@ class pty
         return d::pick(r, w);
     }
 
-    // Rooms, bedrooms and floor area: rooms times a lognormal area per room.
+    // Rooms, bedrooms and floor area: rooms to the group's power (1 by default: rooms times an
+    // area per room) times a lognormal.
     void draw_size_(const country_model& c, const core::rng& call, const propertygen_detail::draw_context& at,
                     property& out) const
     {
@@ -1599,7 +1634,10 @@ class pty
         const std::size_t bedrooms = d::pick(rooms_r, _model.bedrooms.at(rooms - 1));
         auto m2_r = call.split("area_m2");
         const double per_room = core::lognormal(m2_r, c.m2_log_mean.at(group), c.m2_log_sd.at(group));
-        const double m2 = core::math::fenced(static_cast<double>(rooms) * per_room);
+        const double power = c.m2_rooms_power.at(group);
+        const double scale = power == 1.0 ? static_cast<double>(rooms)
+                                          : core::math::exp(power * core::math::log(static_cast<double>(rooms)));
+        const double m2 = core::math::fenced(scale * per_room);
         out.rooms = static_cast<std::uint8_t>(rooms);
         out.bedrooms = static_cast<std::uint8_t>(bedrooms);
         out.floor_area = static_cast<std::uint16_t>(std::clamp(std::floor(m2 + 0.5), 4.0, 65535.0));
