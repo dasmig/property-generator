@@ -599,8 +599,30 @@ def bedroom_base():
     return out
 
 
+def shifted(base, shift):
+    """The base moved down by `shift` rooms (negative: up), between whole rooms by linear
+    interpolation; what would fall below one room is one room, above the last the last."""
+    n = len(base)
+    lo = math.floor(shift)
+    frac = shift - lo
+    out = [0.0] * n
+    for r, p in enumerate(base):
+        out[min(max(r - lo, 0), n - 1)] += p * (1 - frac)
+        out[min(max(r - lo - 1, 0), n - 1)] += p * frac
+    return out
+
+
 def tilt(base, theta):
-    w = [p * math.exp(theta * (r + 1)) for r, p in enumerate(base)]
+    """The base shifted, then tilted by exp(theta r); theta is a number (no shift) or (theta, shift).
+
+    1.0.0 tilted only. A tilt moves the US's shape to a smaller mean by piling homes onto one room
+    (49% of Latvia's flats, against 18% of its dwellings in its census); a shift moves the shape
+    whole. Over the 43 countries with a distribution, the squared error of the shares is 1.82 with a
+    tilt, 0.99 with a shift and 0.34 with both."""
+    th, shift = theta if isinstance(theta, tuple) else (theta, 0.0)
+    if shift:
+        base = shifted(base, shift)
+    w = [p * math.exp(th * (r + 1)) for r, p in enumerate(base)]
     s = sum(w)
     return [x / s for x in w]
 
@@ -666,32 +688,51 @@ def sq_error(model, target):
     return sum((model[k] - v / total) ** 2 for k, v in target.items())
 
 
+def fit_shift_tilt(objective):
+    """(theta, shift) minimising objective(theta, shift): the shift on a grid, refined once, with
+    theta fitted at each."""
+    def at(s):
+        th = fit_theta(lambda x: objective(x, s))
+        return th, s, objective(th, s)
+    best = min((at(-3.0 + 0.25 * i) for i in range(37)), key=lambda v: v[2])
+    best = min((at(best[1] + 0.025 * i) for i in range(-10, 11)), key=lambda v: v[2])
+    return best[0], best[1]
+
+
+def rooms_mean(dist):
+    return sum((i + 1) * p for i, p in enumerate(dist))
+
+
 def fit_rooms(cc, base, bed, sizes, group_given_size):
-    """theta per group and the evidence. Targets, best first: census room counts by building
-    (Europe), room counts for all dwellings (curated census, UN compendium), sleeping rooms (DHS)."""
+    """(theta, shift) per group and the evidence. Targets, best first: census room counts by
+    building (Europe) and room counts for all dwellings (curated census, UN compendium), fitted with
+    a shift and a tilt; then mean rooms, sleeping rooms (DHS) and rooms per person, with a shift."""
     rd = M[cc].get("rooms_dist", {})
     if cc == "US":
-        return {g: 0.0 for g in GROUPS}, "measured", "US Census Bureau AHS 2023 (TOTROOMS by building and household size)"
+        return ({g: (0.0, 0.0) for g in GROUPS}, "measured",
+                "US Census Bureau AHS 2023 (TOTROOMS by building and household size)")
     if "house" in rd and "flat" in rd:
         theta = {}
         for g in ("house", "flat"):
             target = rd[g]["shares"]
             keys = list(target)
-            theta[g] = fit_theta(lambda th, g=g: sq_error(
-                to_categories(model_rooms({**{x: 0.0 for x in GROUPS}, g: th}, base, sizes, group_given_size, (g,)), keys), target))
-        theta["other"] = (theta["house"] + theta["flat"]) / 2
+            theta[g] = fit_shift_tilt(lambda th, s, g=g: sq_error(
+                to_categories(model_rooms({**{x: 0.0 for x in GROUPS}, g: (th, s)}, base, sizes, group_given_size,
+                                          (g,)), keys), target))
+        theta["other"] = tuple((theta["house"][i] + theta["flat"][i]) / 2 for i in range(2))
         return theta, "measured", f"{rd['house']['source']} {rd['house']['year']}"
     if "all" in rd:
-        # One parameter cannot match a distribution's shape and its mean at once; the mean, which sets
-        # the floor area too, is matched (validate_property.py checks it).
+        # The shares and the mean, which sets the floor area too (validate_property.py checks both).
         row = rd["all"]
-        target = dist_mean(row["shares"]) + (1 if row.get("definition", "kitchen") == "no_kitchen" else 0)
+        shift = 1 if row.get("definition", "kitchen") == "no_kitchen" else 0
+        target = {str(int(k.rstrip("+")) + shift) + ("+" if k.endswith("+") else ""): v for k, v in row["shares"].items()}
+        mean = dist_mean(row["shares"]) + shift
 
-        def objective(th):
-            dist = model_rooms({g: th for g in GROUPS}, base, sizes, group_given_size)
-            return (sum((i + 1) * p for i, p in enumerate(dist)) - target) ** 2
-        th = fit_theta(objective)
-        return {g: th for g in GROUPS}, row["evidence"], f"{row['source']} {row['year']}"
+        def objective(th, s):
+            dist = model_rooms({g: (th, s) for g in GROUPS}, base, sizes, group_given_size)
+            return sq_error(to_categories(dist, list(target)), target) + (rooms_mean(dist) / mean - 1) ** 2
+        th, s = fit_shift_tilt(objective)
+        return {g: (th, s) for g in GROUPS}, row["evidence"], f"{row['source']} {row['year']}"
     rmg = M[cc].get("rooms_mean", {})
     if "house" in rmg and "flat" in rmg:
         theta = {}
@@ -699,67 +740,103 @@ def fit_rooms(cc, base, bed, sizes, group_given_size):
             row = rmg[g]
             target = row["value"] + (1 if row["definition"] == "no_kitchen" else 0)
 
-            def objective(th, g=g, target=target):
-                dist = model_rooms({**{x: 0.0 for x in GROUPS}, g: th}, base, sizes, group_given_size, (g,))
-                return (sum((i + 1) * p for i, p in enumerate(dist)) - target) ** 2
-            theta[g] = fit_theta(objective)
-        theta["other"] = (theta["house"] + theta["flat"]) / 2
+            def objective(s, g=g, target=target):
+                dist = model_rooms({**{x: 0.0 for x in GROUPS}, g: (0.0, s)}, base, sizes, group_given_size, (g,))
+                return (rooms_mean(dist) - target) ** 2
+            theta[g] = (0.0, fit_theta(objective, -3.0, 6.0))
+        theta["other"] = tuple((theta["house"][i] + theta["flat"][i]) / 2 for i in range(2))
         return theta, rmg["house"]["evidence"], f"{rmg['house']['source']} {rmg['house']['year']} (mean rooms)"
+
+    def common(objective):
+        s = fit_theta(lambda x: objective(model_rooms({g: (0.0, x) for g in GROUPS}, base, sizes, group_given_size)),
+                      -3.0, 6.0)
+        return {g: (0.0, s) for g in GROUPS}
     rm = rmg.get("all")
     if rm:
         target = rm["value"] + (1 if rm["definition"] == "no_kitchen" else 0)
-
-        def objective(th):
-            dist = model_rooms({g: th for g in GROUPS}, base, sizes, group_given_size)
-            return (sum((i + 1) * p for i, p in enumerate(dist)) - target) ** 2
-        th = fit_theta(objective)
-        return {g: th for g in GROUPS}, rm["evidence"], f"{rm['source']} {rm['year']} (mean rooms)"
+        return (common(lambda dist: (rooms_mean(dist) - target) ** 2), rm["evidence"],
+                f"{rm['source']} {rm['year']} (mean rooms)")
     sl = M[cc].get("sleeping_rooms", {}).get("all")
     if sl:
         target = sl["shares"]
 
-        def objective(th):
-            dist = model_rooms({g: th for g in GROUPS}, base, sizes, group_given_size)
+        def sleeping(dist):
             sleep = [0.0] * MAX_ROOMS
             for r, p in enumerate(dist):
                 for b, q in enumerate(bed[r + 1]):
                     sleep[max(1, b) - 1] += p * q
             return sq_error(to_categories(sleep, ["1", "2", "3+"]), target)
-        th = fit_theta(objective)
-        return {g: th for g in GROUPS}, "modelled", f"{sl['source']} {sl['year']} (rooms for sleeping)"
+        return common(sleeping), "modelled", f"{sl['source']} {sl['year']} (rooms for sleeping)"
     rpp = M[cc].get("rooms_per_person", {})
     if "all" in rpp:
         mean_size = sum((i + 1) * p for i, p in enumerate(sizes))
         target = rpp["all"]["value"] * mean_size
-
-        def objective(th):
-            dist = model_rooms({g: th for g in GROUPS}, base, sizes, group_given_size)
-            return (sum((i + 1) * p for i, p in enumerate(dist)) - target) ** 2
-        th = fit_theta(objective)
-        return {g: th for g in GROUPS}, "modelled", f"{rpp['all']['source']} {rpp['all']['year']} (rooms per person)"
+        return (common(lambda dist: (rooms_mean(dist) - target) ** 2), "modelled",
+                f"{rpp['all']['source']} {rpp['all']['year']} (rooms per person)")
     return None, None, None
 
 
 # ------------------------------------------------------------------ floor area
 
-def floor_area(cc, theta, base, sizes, group_given_size):
-    """log of m2 per room per group, and the evidence."""
-    us = US["m2_per_room"]
+# The least spread of log floor area left for a given number of rooms, where a country's census
+# spread is nearly all explained by its rooms.
+MIN_M2_SD = 0.15
+
+
+def rooms_by_group(theta, base, sizes, group_given_size, power):
+    """Per group: its share of households, and the mean of rooms^power, the mean of log rooms and
+    the variance of log rooms."""
+    out = {}
+    for g in GROUPS:
+        weight, dist = 0.0, [0.0] * MAX_ROOMS
+        for s in range(1, MAX_SIZE + 1):
+            pg = sizes[s - 1] * group_given_size[s][g]
+            if pg <= 0:
+                continue
+            weight += pg
+            for r, p in enumerate(tilt(base[(g, s)], theta[g])):
+                dist[r] += pg * p
+        if weight <= 0:  # a group the country has none of: its rooms over the household sizes alone
+            for s in range(1, MAX_SIZE + 1):
+                for r, p in enumerate(tilt(base[(g, s)], theta[g])):
+                    dist[r] += sizes[s - 1] * p
+        total = sum(dist)
+        dist = [x / total for x in dist]
+        scale = sum(p * (r + 1) ** power[g] for r, p in enumerate(dist))
+        mlog = sum(p * math.log(r + 1) for r, p in enumerate(dist))
+        vlog = sum(p * (math.log(r + 1) - mlog) ** 2 for r, p in enumerate(dist))
+        out[g] = (weight, scale, mlog, vlog)
+    return out
+
+
+def floor_area(cc, theta, base, sizes, group_given_size, sigma_fill=None):
+    """Per group, the log floor area of one room, its log sd, the power of rooms, and the evidence.
+
+    Floor area is rooms^power x a lognormal (1.0.0: rooms x a lognormal area per room, power 1).
+    The power and the spread left at a given number of rooms are the US's, from the AHS: 0.8 for
+    flats, whose rooms get smaller as they multiply, and 1.2 for houses. A census gives the mean and
+    spread of the whole floor area; the level is set to its mean log, and the spread left is the
+    census's less what the model's own rooms spread explains (power squared x the variance of log
+    rooms), the census's capped at the US's. A country with only a mean area takes `sigma_fill`, the spread of measured countries
+    near it (None asks the caller to come back with it), and the US's distance between the groups'
+    mean log areas, halved."""
+    us = US["m2_on_rooms"]
+    power = {g: us[g]["power"] for g in GROUPS}
     fd = M[cc].get("floor_dist", {})
+    rooms = rooms_by_group(theta, base, sizes, group_given_size, power)
     if cc == "US":
-        return {g: us[g]["log_mean"] for g in GROUPS}, "measured", "US Census Bureau AHS 2023 (UNITSIZE / TOTROOMS)"
-
-    def mean_log_rooms(g):
-        dist = model_rooms({x: theta[x] for x in GROUPS}, base, sizes, group_given_size, (g,))
-        return sum(p * math.log(r + 1) for r, p in enumerate(dist))
-
-    def mean_rooms():
-        dist = model_rooms(theta, base, sizes, group_given_size)
-        return sum(p * (r + 1) for r, p in enumerate(dist))
+        return ({g: us[g]["log_one_room"] for g in GROUPS}, {g: us[g]["log_sd"] for g in GROUPS}, power,
+                "measured", "US Census Bureau AHS 2023 (UNITSIZE / TOTROOMS)")
     if "house" in fd and "flat" in fd:
-        out = {g: fd[g]["log_mean"] - mean_log_rooms(g) for g in ("house", "flat")}
-        out["other"] = out["flat"]
-        return out, "measured", f"{fd['house']['source']} {fd['house']['year']}"
+        mu = {g: fd[g]["log_mean"] - power[g] * rooms[g][2] for g in ("house", "flat")}
+        # A census spread is capped at the US microdata's for the group: where most homes are in the
+        # open top band ("150 m2 or more": 52% of Norway's houses) the fitted spread is extrapolation.
+        census_sd = {g: min(fd[g]["log_sd"], us[g]["log_sd_area"]) for g in ("house", "flat")}
+        sd = {g: math.sqrt(max(census_sd[g] ** 2 - power[g] ** 2 * rooms[g][3], MIN_M2_SD ** 2))
+              for g in ("house", "flat")}
+        # The census has houses and flats only; the other dwellings take the flats' parameters.
+        mu["other"], sd["other"] = mu["flat"], sd["flat"]
+        return mu, sd, {**power, "other": power["flat"]}, "measured", f"{fd['house']['source']} {fd['house']['year']}"
     fm = M[cc].get("floor_mean")
     census = M[cc].get("floor_census", {}).get("all")
     per_dwelling = None
@@ -773,11 +850,16 @@ def floor_area(cc, theta, base, sizes, group_given_size):
         per_dwelling = fm["value"]
         src = ("measured", f"{fm['source']} {fm['year']}")
     if per_dwelling:
-        sigma = us["flat"]["log_sd"]
-        mu = math.log(per_dwelling / mean_rooms()) - sigma * sigma / 2
-        offset = {g: us[g]["log_mean"] - us["flat"]["log_mean"] for g in GROUPS}
-        return {g: mu + offset[g] * 0.5 for g in GROUPS}, *src
-    return None, None, None
+        if sigma_fill is None:
+            return "later", None, None, None, None
+        # Each group's mean log area is a level plus half the US's distance from the flats'; the level
+        # is solved so that the mean area per dwelling over the groups is the source's.
+        offset = {g: 0.5 * (us[g]["log_mean_area"] - us["flat"]["log_mean_area"]) - power[g] * rooms[g][2]
+                  for g in GROUPS}
+        scale = sum(rooms[g][0] * rooms[g][1] * math.exp(offset[g] + sigma_fill[g] ** 2 / 2) for g in GROUPS)
+        level = math.log(per_dwelling / scale)
+        return {g: level + offset[g] for g in GROUPS}, dict(sigma_fill), power, *src
+    return None, None, None, None, None
 
 
 # ------------------------------------------------------------------ periods
@@ -942,28 +1024,40 @@ def main():
     for cc in COUNTRIES:
         sizes = size_distribution(hh[cc][0])
         d_types = types[cc][0]
-        nat = {k: sum(settle[cc][0][a] * d_types[a][k] for a in AREAS) for k in TYPES}
         group_given_size = type_given_size(d_types, settle[cc][0], sizes, odds_size)
+        group_given_size_cache[cc] = (sizes, group_given_size)
         theta, ev, src = fit_rooms(cc, base, bed, sizes, group_given_size)
         if theta:
             room_fit[cc] = (theta, ev, src)
-        room_fit.setdefault(cc, None)
-        group_given_size_cache[cc] = (sizes, group_given_size)
-    have_theta = {cc: {g: v[0][g] for g in GROUPS} for cc, v in room_fit.items() if v}
+    have_theta = {cc: {g: v[0][g][0] for g in GROUPS} for cc, v in room_fit.items()}
+    have_shift = {cc: {g: v[0][g][1] for g in GROUPS} for cc, v in room_fit.items()}
     for cc in COUNTRIES:
-        if not room_fit[cc]:
+        if cc not in room_fit:
             d, key = fill(cc, have_theta, ("subregion", "income", "world"))
-            room_fit[cc] = (d, "filled", f"{key} mean of measured countries")
+            s, _ = fill(cc, have_shift, ("subregion", "income", "world"))
+            room_fit[cc] = ({g: (d[g], s[g]) for g in GROUPS}, "filled", f"{key} mean of measured countries")
+    later = []
     for cc in COUNTRIES:
         sizes, ggs = group_given_size_cache[cc]
-        mu, ev, src = floor_area(cc, room_fit[cc][0], base, sizes, ggs)
-        if mu:
-            area_fit[cc] = (mu, ev, src)
+        mu, sd, pw, ev, src = floor_area(cc, room_fit[cc][0], base, sizes, ggs)
+        if mu == "later":
+            later.append(cc)
+        elif mu:
+            area_fit[cc] = (mu, sd, pw, ev, src)
+    # Spreads come from the US and the census countries; a country with only a mean takes theirs.
+    have_sd = {cc: v[1] for cc, v in area_fit.items()}
+    for cc in later:
+        sizes, ggs = group_given_size_cache[cc]
+        sigma, _ = fill(cc, have_sd, ("subregion", "income", "world"))
+        area_fit[cc] = floor_area(cc, room_fit[cc][0], base, sizes, ggs, sigma)
     have_mu = {cc: v[0] for cc, v in area_fit.items()}
+    have_sd = {cc: v[1] for cc, v in area_fit.items()}
     for cc in COUNTRIES:
         if cc not in area_fit:
             d, key = fill(cc, have_mu, ("subregion", "income", "world"))
-            area_fit[cc] = (d, "filled", f"{key} mean of measured countries")
+            s, _ = fill(cc, have_sd, ("subregion", "income", "world"))
+            pw = {g: US["m2_on_rooms"][g]["power"] for g in GROUPS}
+            area_fit[cc] = (d, s, pw, "filled", f"{key} mean of measured countries")
 
     age_dist = us_age_distribution()
     for cc in COUNTRIES:
@@ -1002,10 +1096,11 @@ def main():
             rows_ten.append({"country_code": cc, "household_type": htype, **calibrated[htype], "evidence": tnev,
                              "source": tnsrc})
         theta, rev, rsrc = room_fit[cc]
-        mu, aev, asrc = area_fit[cc]
+        mu, sd, pw, aev, asrc = area_fit[cc]
         for g in GROUPS:
-            rows_dw.append({"country_code": cc, "group": g, "rooms_tilt": theta[g], "m2_log_mean": mu[g],
-                            "m2_log_sd": US["m2_per_room"][g]["log_sd"], "rooms_evidence": rev, "area_evidence": aev,
+            rows_dw.append({"country_code": cc, "group": g, "rooms_tilt": theta[g][0], "rooms_shift": theta[g][1],
+                            "m2_log_mean": mu[g],
+                            "m2_log_sd": sd[g], "m2_rooms_power": pw[g], "rooms_evidence": rev, "area_evidence": aev,
                             "rooms_source": rsrc, "area_source": asrc})
         bands, pev, psrc = per[cc]
         for lo, hi, share in bands:
@@ -1059,8 +1154,9 @@ def main():
     bed_rows = [{"rooms": r, **{f"b{b}": bed[r][b] for b in range(MAX_ROOMS)}} for r in range(1, MAX_ROOMS + 1)]
     write_all_tiers("bedrooms.tsv", "bedrooms given rooms, US AHS 2023; one room is a studio",
                     ["rooms", *[f"b{b}" for b in range(MAX_ROOMS)]], bed_rows, digits=6)
-    write_all_tiers("dwellings.tsv", "per country and building group: the rooms tilt and the log of m2 per room; see doc/data.md",
-                    ["country_code", "group", "rooms_tilt", "m2_log_mean", "m2_log_sd", "rooms_evidence", "area_evidence",
+    write_all_tiers("dwellings.tsv", "per country and building group: the rooms shift and tilt, and floor area as rooms^m2_rooms_power x a "
+                    "lognormal (m2_log_mean, m2_log_sd); see doc/data.md",
+                    ["country_code", "group", "rooms_tilt", "rooms_shift", "m2_log_mean", "m2_log_sd", "m2_rooms_power", "rooms_evidence", "area_evidence",
                      "rooms_source", "area_source"], rows_dw)
     write_all_tiers("periods.tsv", "occupied dwellings by period of construction; see doc/data.md",
                     ["country_code", "from", "to", "share", "evidence", "source"], rows_per)
@@ -1079,7 +1175,7 @@ def report(types, ten, room_fit, area_fit, per, cost, hh):
     total = sum(POP.values())
     print("population share by evidence:")
     for name, table, pick in (("type", types, lambda v: v[1]), ("tenure", ten, lambda v: v[1]),
-                              ("rooms", room_fit, lambda v: v[1]), ("area", area_fit, lambda v: v[1]),
+                              ("rooms", room_fit, lambda v: v[1]), ("area", area_fit, lambda v: v[3]),
                               ("period", per, lambda v: v[1]), ("cost", cost, lambda v: v[1]), ("household", hh, lambda v: v[1])):
         by = defaultdict(float)
         for cc in COUNTRIES:

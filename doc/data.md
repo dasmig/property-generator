@@ -27,9 +27,9 @@ Every table is TSV with a first-line `#` comment naming its source, keyed as lis
 | `type_odds.tsv` | `size` | the six dwelling types | how the type shifts with household size 1 to 6 (6 or more) |
 | `tenures.tsv` | `country_code`, `household_type` | the four tenures; `evidence`, `source` | the base tenure shares: an `all` row per country, and rows by household type where measured |
 | `tenure_odds.tsv` | `dimension`, `value` | the four tenures | how tenure shifts with age band, household type and dwelling type |
-| `rooms.tsv` | `group`, `size` | `r1` to `r10` | rooms by building group (house, flat, other) and household size, before a country's tilt |
+| `rooms.tsv` | `group`, `size` | `r1` to `r10` | rooms by building group (house, flat, other) and household size, before a country's shift and tilt |
 | `bedrooms.tsv` | `rooms` | `b0` to `b9` | bedrooms given rooms |
-| `dwellings.tsv` | `country_code`, `group` | `rooms_tilt`, `m2_log_mean`, `m2_log_sd`; `rooms_evidence`, `area_evidence`, `rooms_source`, `area_source` | per country and building group, the tilt of the rooms table and the floor area per room |
+| `dwellings.tsv` | `country_code`, `group` | `rooms_tilt`, `rooms_shift`, `m2_log_mean`, `m2_log_sd`, `m2_rooms_power`; `rooms_evidence`, `area_evidence`, `rooms_source`, `area_source` | per country and building group, the shift and tilt of the rooms table and the floor area's lognormal and power of rooms (`rooms_shift` and `m2_rooms_power` since 1.0.1; without them a table reads as 0 and 1, which 1.0.0 drew) |
 | `periods.tsv` | `country_code`, `from` | `to`, `share`; `evidence`, `source` | the housing stock by period of construction |
 | `costs.tsv` | `country_code`, `tenure` | `log_mean`, `log_sd`; `slope_below`, `slope_above`, `evidence`, `source` | the housing cost as a share of gross household income: a lognormal at the reference income, and how it falls as the income rises |
 
@@ -91,8 +91,8 @@ Each field is drawn in turn, conditioned on the ones before. The call seed split
 4. **Age** (`age`): given, or uniform from 18 to 80, as `id-generator` and `finance-generator` draw it. It is not demographic.
 5. **Dwelling type** (`type`): P(type | area, size) ∝ share(area, type) × odds(size, type) × factor(area, type). The odds are the US's (ACS PUMS, building by household size), damped by raising them to the power 0.5 so one country's structure is not copied. The factors are fitted when the tables load (30 rounds of proportional fitting over the country's household sizes), so the shares of `types.tsv` come back over the households.
 6. **Tenure** (`tenure`): the household type's own row of `tenures.tsv` where measured, else the `all` row times the household type's odds; then times the odds of the age band and of the dwelling type. The base rows are calibrated in the build so that the draws, over the country's mix of types, ages and households, return the source's shares.
-7. **Rooms and bedrooms** (`rooms`): rooms from `rooms.tsv` for the building group and household size, tilted by exp(`rooms_tilt` × rooms); bedrooms from `bedrooms.tsv` given the rooms.
-8. **Floor area** (`area_m2`): rooms × a lognormal area per room with the group's `m2_log_mean` and `m2_log_sd`, rounded to the square metre, at least 4.
+7. **Rooms and bedrooms** (`rooms`): rooms from `rooms.tsv` for the building group and household size, moved down `rooms_shift` rooms (between whole rooms by linear interpolation, what falls below one room kept at one) and tilted by exp(`rooms_tilt` × rooms); bedrooms from `bedrooms.tsv` given the rooms.
+8. **Floor area** (`area_m2`): rooms^`m2_rooms_power` × a lognormal with the group's `m2_log_mean` and `m2_log_sd`, rounded to the square metre, at least 4.
 9. **Year built** (`year`): a period of construction from `periods.tsv` among those that start by the reference year, then a year uniformly within it, never after the reference year.
 10. **Cost** (`cost`, with an income only): monthly cost = gross annual income / 12 × min(1, burden). The burden is lognormal with the tenure's `log_sd` and a log median of `log_mean` + slope × ln(income / `reference_income`), the slope `slope_below` under the reference income and `slope_above` over it. An income of zero costs zero.
 
@@ -119,20 +119,25 @@ The odds come from three places. Age: the US's householders by age band (ACS PUM
 
 Rooms are habitable rooms with the kitchen and without bathrooms, toilets and corridors, as the ACS, AHS and EU-SILC count them. A source that leaves the kitchen out (China's 间, Japan's 居住室, India's living rooms, Pakistan's census) is taken as one room more; Brazil's cômodos count bathrooms, which are taken off with table 9932.
 
-The base table is the AHS's rooms by building group and household size, smoothed with the neighbouring sizes and the group's margin and then tilted back to each cell's own mean. Each country tilts it by exp(θ × rooms), per building group, θ between −6 and 2, fitted to the best source it has:
+The base table is the AHS's rooms by building group and household size, smoothed with the neighbouring sizes and the group's margin and then tilted back to each cell's own mean. Each country moves it down by a shift of s rooms and then tilts it by exp(θ × rooms), per building group, fitted to the best source it has. A tilt alone (1.0.0) reaches a smaller mean by piling homes onto one room, 49% of Latvia's flats against 18% of its dwellings in its census; a shift moves the shape whole. Over the 43 countries with a distribution the squared error of the shares is 1.82 with a tilt, 0.99 with a shift and 0.34 with both.
 
 | Source | Fit | Evidence |
 |--------|-----|----------|
-| Eurostat census 2021, rooms by building type | the house and flat distributions, separately | measured |
-| a national or compendium distribution, or a mean | the mean (one parameter cannot match a distribution's shape and its mean at once, and the mean sets the floor area) | measured |
-| DHS, rooms used for sleeping | the 1, 2 and 3+ shares, through `bedrooms.tsv` | modelled |
-| EU-SILC rooms per person | × the mean household size | modelled |
+| Eurostat census 2021, rooms by building type | shift and tilt to the house and flat distributions, separately | measured |
+| a national or compendium distribution | shift and tilt to the shares and the mean | measured |
+| a mean | shift | measured |
+| DHS, rooms used for sleeping | shift to the 1, 2 and 3+ shares, through `bedrooms.tsv` | modelled |
+| EU-SILC rooms per person | shift, × the mean household size | modelled |
+
+A country without a source takes the mean shift and tilt of its subregion's measured countries, else its income level's, else the world's.
 
 Bedrooms given rooms are the AHS's everywhere: one room is a studio, and a home has fewer bedrooms than rooms from two rooms on.
 
 ### Floor Area
 
-The area per room is lognormal per building group. The US's is from the AHS's unit size bands over its rooms. Eurostat's census floor-area bands by building type give a house and a flat level for 22 countries. Elsewhere the source's mean area per dwelling is matched over the country's rooms: EU-SILC's 2023 average (13 more countries), China's area per person × its household size, and Japan's, India's and the Philippines' figures; such a country's spread is the US flats', and its house and flat levels sit half as far apart as the US's.
+Floor area is rooms^p × a lognormal, per building group. The power p and the spread left at a given number of rooms are the US's, regressed on the AHS's unit size bands (each band's lower and upper bound, so the band's width counts in the spread): 0.80 for flats, whose rooms get smaller as they multiply, and 1.18 for houses (1.13 for other dwellings). 1.0.0 multiplied rooms by an area per room (p = 1), which drew a ten-room flat at ten times a one-room one.
+
+Eurostat's census floor-area bands by building type give 22 countries a house and a flat distribution. Each is fitted with an interval-censored lognormal (the bands' bounds, the first and last open), whose mean log sets the level; its spread, capped at the US's for the group (52% of Norway's houses are in the open band of 150 m² or more, where the fitted spread is extrapolation), less what the drawn rooms already spread (p² × the variance of log rooms) is the spread left, at least 0.15. Their other dwellings take the flats' parameters. Elsewhere the source's mean area per dwelling is matched over the country's rooms: EU-SILC's 2023 average (13 more countries), China's area per person × its household size, and Japan's, India's and the Philippines' figures; such a country's spread is that of the measured countries near it, and its house and flat levels sit half as far apart as the US's.
 
 ### Period of Construction
 
@@ -167,14 +172,17 @@ The median monthly cost of a market tenant at the reference income comes out at 
 
 ## How Well It Matches
 
-`scripts/validate_property.py` builds `scripts/sample_property.cpp`, draws 20,000 homes per country with an income, and compares the draws with the figures they came from. On 2026-11-07 every check passed on both tiers:
+`scripts/validate_property.py` builds `scripts/sample_property.cpp`, draws 20,000 homes per country with an income, and compares the draws with the figures they came from. A check passes when the countries outside its tolerance are at most its allowance. On 2026-11-09 every check passed on both tiers:
 
 | Check | Against | Tolerance | Result |
 |-------|---------|-----------|--------|
 | dwelling types | `types.tsv` over the areas | 0.015 a share | 199 of 199 |
 | tenure | the source's shares before calibration | 0.03 a share | 199 of 199 |
-| mean rooms | the source's mean, for countries fitted to one figure | 10% | 38 of 38 |
+| mean rooms | the source's mean, for countries fitted to one figure | 10% | 37 of 38 (North Korea 11%) |
+| rooms shares | a distribution for all dwellings, the largest gap in a category | 0.10 | 30 of 33 (South Korea, North Korea, Türkiye: up to 0.18) |
 | mean floor area | the source's mean area per dwelling | 15% | 17 of 17 |
+| mean log floor area, houses and flats | the census bands' lognormal | 0.05 | 44 of 44 |
+| spread of log floor area, houses and flats | the census bands' lognormal, capped at the US's | 0.10 | 39 of 44 (houses of Bulgaria, Slovenia, Sweden, the Netherlands and Croatia, wider by up to 0.16) |
 | mean year built | `periods.tsv` | 1.5 years | 199 of 199 |
 | median burden per tenure, at the reference income | `costs.tsv` | three times the median's sampling error, plus 1% | 199 of 199 |
 
@@ -212,7 +220,7 @@ make embed                                        # dasmig/propertygen_data.hpp
 - **Much of the world is filled.** Dwelling type is filled for 42% of the population, among them Indonesia, Bangladesh, Russia, Ethiopia, DR Congo, Vietnam, Iran and Kenya; East and Middle Africa take the mean of Africa's measured countries. Russia's tenure is filled.
 - **The joint structure is the US's.** How type shifts with household size, how tenure shifts with type, and rooms given building and household size come from US microdata, damped, wherever a country has only its margins. Combinations rare in a country can come out.
 - **Bedrooms depend only on rooms**, by the AHS's table, everywhere. Nothing bounds persons per bedroom, so a household of six in a home of one bedroom can be drawn.
-- **One tilt per building group** matches a country's mean rooms, not the shape of its distribution.
+- **A shift and a tilt per building group** cannot take every shape: South Korea's and Türkiye's peaks at four and three rooms come out flatter, and North Korea's 17% of one-room homes is not drawn. Where a census has many small homes, the rooms alone can spread the floor area wider than its census (houses of Bulgaria, Slovenia, Sweden, the Netherlands and Croatia, by up to 0.16 in log sd).
 - **Definitions differ.** Rooms with or without the kitchen are adjusted by one room; the informal share rests on a proxy for most countries; the UN compendium's figures are from censuses of 1995 to 2010.
 - **The cost depends on income and tenure only.** It does not depend on the home's size or the area. How the share falls with income is the US's everywhere, and the reference income takes the US's ratio of household income to median earnings, though households have more earners in some countries than others. Outside Europe and the US most of the level is filled: Great Britain's (Northern Europe's mean, as the UK left EU-SILC) gives a market tenant about 550 GBP a month at its reference income, low against its private rents. China's census rents give a market tenant's median of about 6% of gross income, low against other sources.
 - **One earner.** The cost is against the household income passed in; a caller that passes one person's income makes the burden high.

@@ -8,6 +8,7 @@
 
 #include <algorithm>
 #include <array>
+#include <cmath>
 #include <cstdlib>
 #include <fstream>
 #include <iostream>
@@ -135,6 +136,7 @@ int main(int argc, char** argv)
     out << "\trooms_mean";
     for (int r = 1; r <= 10; ++r) out << "\tr" << r;
     out << "\tbedrooms_mean\tfloor_mean\tyear_mean";
+    for (const auto* g : {"house", "flat"}) out << "\tlf_" << g << "_n\tlf_" << g << "_mean\tlf_" << g << "_sd";
     for (const auto* k : tenure_names) out << "\tb_" << k;
     out << "\n";
 
@@ -155,6 +157,10 @@ int main(int argc, char** argv)
         double bed_sum = 0;
         double floor_sum = 0;
         double year_sum = 0;
+        // log floor area by building group (houses: detached and semi-detached; flats: both sizes)
+        std::array<double, 2> lf_n{};
+        std::array<double, 2> lf_sum{};
+        std::array<double, 2> lf_sq{};
         for (std::uint64_t i = 0; i < count; ++i)
         {
             const auto p = g.get_property(request, seed++);
@@ -165,6 +171,15 @@ int main(int argc, char** argv)
             bed_sum += p.bedrooms;
             floor_sum += p.floor_area;
             year_sum += p.year_built;
+            const bool house = p.type == dasmig::dwelling_type::detached || p.type == dasmig::dwelling_type::semi_detached;
+            if (house || p.in_building())
+            {
+                const std::size_t group = house ? 0 : 1;
+                const double l = std::log(static_cast<double>(p.floor_area));
+                lf_n.at(group) += 1;
+                lf_sum.at(group) += l;
+                lf_sq.at(group) += l * l;
+            }
             burden.at(static_cast<std::size_t>(p.holding)).push_back(p.monthly_cost.value().major() * 12.0 / income_major);
         }
         const auto n = static_cast<double>(count);
@@ -174,6 +189,12 @@ int main(int argc, char** argv)
         out << "\t" << room_sum / n;
         for (const double r : rooms) out << "\t" << r / n;
         out << "\t" << bed_sum / n << "\t" << floor_sum / n << "\t" << year_sum / n;
+        for (std::size_t group = 0; group < 2; ++group)
+        {
+            const double m = lf_n.at(group) > 0 ? lf_sum.at(group) / lf_n.at(group) : 0.0;
+            const double v = lf_n.at(group) > 0 ? lf_sq.at(group) / lf_n.at(group) - m * m : 0.0;
+            out << "\t" << lf_n.at(group) << "\t" << m << "\t" << std::sqrt(std::max(v, 0.0));
+        }
         for (auto& b : burden) out << "\t" << median(b);
         out << "\n";
     }

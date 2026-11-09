@@ -221,8 +221,8 @@ v.signature().data; // gen.data_hash() when it was generated
 
 ```json
 {"country_code":"DE","area":"city","household_type":"one_person","household_size":1,"type":"flat_large",
- "holding":"tenant_market","rooms":1,"bedrooms":0,"floor_area":35,"year_built":1972,"monthly_cost":null,
- "evidence":"modelled","signature":{"seed":"0000000000000003","data":"4a55196d601f537d"}}
+ "holding":"tenant_market","rooms":1,"bedrooms":0,"floor_area":38,"year_built":1972,"monthly_cost":null,
+ "evidence":"modelled","signature":{"seed":"0000000000000003","data":"df6af68d1dd6d658"}}
 ```
 
 `monthly_cost` is `null` without an income, and `{"amount":787.34,"currency":"BRL"}` with one.

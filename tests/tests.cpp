@@ -426,16 +426,16 @@ TEST_CASE("known answers for fixed seeds", "[kat]")
     gen.load(std::filesystem::path{"resources/lite"});
     if (!gen.has_data()) gen.load(std::filesystem::path{"../resources/lite"});
     REQUIRE(gen.has_data());
-    REQUIRE(gen.data_hash() == 0x4a55196d601f537dULL);
+    REQUIRE(gen.data_hash() == 0xdf6af68d1dd6d658ULL);
 
     REQUIRE(gen.get_property(property_request{}, std::uint64_t{1}).to_json() ==
-            R"({"country_code":"ES","area":"town","household_type":"single_parent","household_size":2,"type":"flat_small","holding":"owner_mortgage","rooms":4,"bedrooms":1,"floor_area":56,"year_built":1989,"monthly_cost":null,"evidence":"modelled","signature":{"seed":"0000000000000001","data":"4a55196d601f537d"}})");
+            R"({"country_code":"ES","area":"town","household_type":"single_parent","household_size":2,"type":"flat_small","holding":"owner_mortgage","rooms":4,"bedrooms":1,"floor_area":58,"year_built":1989,"monthly_cost":null,"evidence":"modelled","signature":{"seed":"0000000000000001","data":"df6af68d1dd6d658"}})");
     REQUIRE(gen.get_property(in("DE"), std::uint64_t{3}).to_json() ==
-            R"({"country_code":"DE","area":"city","household_type":"one_person","household_size":1,"type":"flat_large","holding":"tenant_market","rooms":1,"bedrooms":0,"floor_area":35,"year_built":1972,"monthly_cost":null,"evidence":"modelled","signature":{"seed":"0000000000000003","data":"4a55196d601f537d"}})");
+            R"({"country_code":"DE","area":"city","household_type":"one_person","household_size":1,"type":"flat_large","holding":"tenant_market","rooms":1,"bedrooms":0,"floor_area":38,"year_built":1972,"monthly_cost":null,"evidence":"modelled","signature":{"seed":"0000000000000003","data":"df6af68d1dd6d658"}})");
     auto r = in("BR");
     r.household_income = dasmig::core::money::from_major(90000, "BRL", 2);
     REQUIRE(gen.get_property(r, std::uint64_t{5}).to_json() ==
-            R"({"country_code":"BR","area":"city","household_type":"multi_generation","household_size":6,"type":"detached","holding":"tenant_market","rooms":4,"bedrooms":1,"floor_area":155,"year_built":2013,"monthly_cost":{"amount":787.34,"currency":"BRL"},"evidence":"filled","signature":{"seed":"0000000000000005","data":"4a55196d601f537d"}})");
+            R"({"country_code":"BR","area":"city","household_type":"multi_generation","household_size":6,"type":"detached","holding":"tenant_market","rooms":4,"bedrooms":1,"floor_area":119,"year_built":2013,"monthly_cost":{"amount":787.34,"currency":"BRL"},"evidence":"filled","signature":{"seed":"0000000000000005","data":"df6af68d1dd6d658"}})");
 
     std::uint64_t h = 0xcbf29ce484222325ULL;
     for (std::uint64_t s = 0; s < 10000; ++s)
@@ -446,7 +446,7 @@ TEST_CASE("known answers for fixed seeds", "[kat]")
             h *= 0x100000001b3ULL;
         }
     }
-    REQUIRE(h == 0xf630291d49de27d4ULL);
+    REQUIRE(h == 0xd78c0f8ee92e2f0cULL);
 }
 
 // ---------------------------------------------------------------------------
@@ -554,9 +554,9 @@ TEST_CASE("compiled-in data needs no files and matches them", "[embed]")
 
     REQUIRE(loaded);
     REQUIRE(gen.layers(dasmig::property_table::countries).front().source == "embedded:lite/countries.tsv");
-    REQUIRE(gen.data_hash() == 0x4a55196d601f537dULL); // same as the files
+    REQUIRE(gen.data_hash() == 0xdf6af68d1dd6d658ULL); // same as the files
     REQUIRE(gen.get_property(property_request{}, std::uint64_t{1}).to_json() ==
-            R"({"country_code":"ES","area":"town","household_type":"single_parent","household_size":2,"type":"flat_small","holding":"owner_mortgage","rooms":4,"bedrooms":1,"floor_area":56,"year_built":1989,"monthly_cost":null,"evidence":"modelled","signature":{"seed":"0000000000000001","data":"4a55196d601f537d"}})");
+            R"({"country_code":"ES","area":"town","household_type":"single_parent","household_size":2,"type":"flat_small","holding":"owner_mortgage","rooms":4,"bedrooms":1,"floor_area":58,"year_built":1989,"monthly_cost":null,"evidence":"modelled","signature":{"seed":"0000000000000001","data":"df6af68d1dd6d658"}})");
 }
 #endif
 
@@ -622,5 +622,5 @@ TEST_CASE("property batch: known answer of 10,000 items", "[batch][kat]")
     gen.for_each_property(request, {.count = 10000, .threads = 4}, 1,
                           [&](std::uint64_t, const dasmig::property& item)
                           { hash = dasmig::core::hash_combine(hash, dasmig::core::fnv1a64(item.to_json())); });
-    REQUIRE(hash == 0x25ed3a5dc34bedc2ULL);
+    REQUIRE(hash == 0xb9944814c93f7708ULL);
 }

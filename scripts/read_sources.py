@@ -114,15 +114,15 @@ def read_eurostat(m, served):
                 if "10" in dist:  # "9 or more" is kept as 9 and up
                     dist["9+"] = dist.pop("10")
                 put(m, geo, "rooms_dist", {"shares": dist, "definition": "kitchen"}, "Eurostat census 2021 cens_21dwbnr_r3", 2021, key=g)
-    band_mid = {"SQM_LT30": 25, "SQM30-39": 35, "SQM40-49": 45, "SQM50-59": 55, "SQM60-79": 70, "SQM80-99": 90,
-                "SQM100-119": 110, "SQM120-149": 135, "SQM_GE150": 180}
+    # The bands are open at both ends, so a lognormal is fitted to the band counts by maximum
+    # likelihood rather than to assumed band middles (1.0.0 took 180 m2 for "150 or more").
+    bands = {"SQM_LT30": (None, 30), "SQM30-39": (30, 40), "SQM40-49": (40, 50), "SQM50-59": (50, 60),
+             "SQM60-79": (60, 80), "SQM80-99": (80, 100), "SQM100-119": (100, 120), "SQM120-149": (120, 150),
+             "SQM_GE150": (150, None)}
     for geo, by in areas.items():
         for g, d in by.items():
-            total = sum(d.values())
-            if total > 1000:
-                logs = [(x, math.log(band_mid[k])) for k, x in d.items()]
-                mu = sum(w * l for w, l in logs) / total
-                sd = math.sqrt(max(0.0, sum(w * l * l for w, l in logs) / total - mu * mu))
+            if sum(d.values()) > 1000:
+                mu, sd = fit_lognormal_bands([(bands[k], x) for k, x in d.items()])
                 put(m, geo, "floor_dist", {"log_mean": mu, "log_sd": sd}, "Eurostat census 2021 cens_21dwbnr_r3", 2021, key=g)
 
     # Census 2021: occupied dwellings by period of construction.
@@ -164,6 +164,26 @@ def read_eurostat(m, served):
 
 
 US_SIGMA = {"owner_outright": 0.93, "owner_mortgage": 0.69, "tenant_market": 0.71, "tenant_reduced": 0.92}
+
+
+def fit_lognormal_bands(counts):
+    """mu, sigma of a lognormal fitted by maximum likelihood to counts in bands ((lo, hi), count); None
+    for an open end. A grid search refined three times: deterministic, and the likelihood is smooth."""
+    def loglik(mu, sd):
+        total = 0.0
+        for (lo, hi), n in counts:
+            if n <= 0:
+                continue
+            a = N.cdf((math.log(lo) - mu) / sd) if lo else 0.0
+            b = N.cdf((math.log(hi) - mu) / sd) if hi else 1.0
+            total += n * math.log(max(b - a, 1e-300))
+        return total
+    mu, sd, step_mu, step_sd = 4.3, 0.4, 0.2, 0.1
+    for _ in range(4):
+        grid = [(mu + i * step_mu, max(0.02, sd + j * step_sd)) for i in range(-10, 11) for j in range(-10, 11)]
+        mu, sd = max(grid, key=lambda p: loglik(*p))
+        step_mu, step_sd = step_mu / 10, step_sd / 10
+    return mu, sd
 
 
 def fit_lognormal_level(points, sigma):
